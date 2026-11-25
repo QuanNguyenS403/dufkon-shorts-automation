@@ -1,0 +1,72 @@
+{
+  "id": "batch_03_earth_stops_spinning",
+  "niche": "science_human_limits",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Photorealistic 8K cinematic render, high-contrast dramatic lighting, deep space blues, fiery orange atmospheric entry glows, ultra-detailed particle dynamics, intense motion blur effects, photorealistic physics simulation aesthetic.",
+  "title": "What If Earth Stopped Spinning for 1 Second?",
+  "description": "If Earth suddenly froze for just one second, the results would be cataclysmic! Everything not anchored would fly eastward at over 1,000 miles per hour. Would humanity survive the supersonic shockwave? Drop your thoughts below! #Shorts #Science #Physics #Space #WhatIf",
+  "tags": [
+    "earth spinning",
+    "what if earth stopped",
+    "physics thought experiment",
+    "supersonic winds",
+    "planetary science",
+    "human limits",
+    "science facts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What if Earth suddenly locked up and stopped spinning for just one single second?",
+      "flow_prompt": "Photorealistic cinematic view of planet Earth spinning rapidly in dark space, suddenly shuddering violently as orbital inertia forces distortion, high contrast rim lighting, deep space blues, ultra-detailed atmospheric visual, no text, no watermark",
+      "stock_query": "earth spinning space",
+      "transition": "auto"
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At the equator, everything not carved into bedrock would fly eastward at one thousand miles per hour!",
+      "flow_prompt": "Cinematic dynamic simulation of massive supersonic windstorms tearing across a modern coastal city, debris and ocean water violently swept eastward at incredible speed, chaotic atmospheric dynamics, deep blues and fiery contrast lighting, no text, no watermark",
+      "stock_query": "supersonic wind storm",
+      "transition": "zoomin"
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Atmospheric inertia would instantly trigger planetary mega-tsunamis and catastrophic supersonic shockwaves.",
+      "flow_prompt": "Photorealistic massive mega tsunami wave towering over coastline under dark stormy sky, colossal water wall moving at supersonic speed, high contrast dramatic lighting, detailed fluid simulation visual, no text, no watermark",
+      "stock_query": "tsunami mega wave ocean",
+      "transition": "wipeup"
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "The sudden planetary jerk would trigger massive global earthquakes, instantly reshaping Earth's tectonic plates forever.",
+      "flow_prompt": "Cinematic cross-section of Earth's crust fracturing violently under extreme rotational inertia friction, glowing magma bursting from subterranean tectonic faults, deep fiery orange glow, sharp detailed physics render, no text, no watermark",
+      "stock_query": "earthquake tectonic movement",
+      "transition": "smoothleft"
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "When rotation resumes, the surviving world would be unrecognizable. Could humanity rebuild from that single second?",
+      "flow_prompt": "Photorealistic glowing planet Earth slowly resuming rotation in space, serene yet altered atmosphere swirling with storm remnants, high contrast rim lighting, breathtaking cosmic detail, no text, no watermark",
+      "stock_query": "earth spinning smooth space",
+      "transition": "dissolve"
+    }
+  ]
+}

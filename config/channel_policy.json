@@ -1,0 +1,56 @@
+{
+  "account_lock": {
+    "expected_email": "dufkonltd@gmail.com",
+    "channel_id": "UCVEH1Fr34ceSw4FY27i656A",
+    "channel_title": "Dufkon",
+    "enforce_channel_id_match": true
+  },
+  "upload_defaults": {
+    "default_privacy_status": "private",
+    "default_category_id": "28",
+    "default_language": "en",
+    "made_for_kids": false,
+    "contains_synthetic_media": true,
+    "shorts_max_duration_seconds": 60,
+    "shorts_target_width": 1080,
+    "shorts_target_height": 1920,
+    "video_target_width": 1920,
+    "video_target_height": 1080
+  },
+  "production_defaults": {
+    "target_fps": 30,
+    "transition_type": "auto",
+    "transition_duration": 0.25,
+    "bgm_volume": 0.16,
+    "sfx_volume": 0.35,
+    "enable_sfx": true,
+    "enable_progress_bar": true,
+    "loudness_lufs": -14.0,
+    "caption_style": "viral_highlight",
+    "presenter_layout": "random",
+    "presenter_random_weights": {
+      "fullscreen": 0.40,
+      "hybrid": 0.40,
+      "split": 0.20
+    },
+    "video_crf": 15,
+    "video_preset": "slow",
+    "sharpen_cas": 0.45,
+    "voices": {
+      "host": "en-US-AndrewMultilingualNeural",
+      "guest": "en-US-AvaMultilingualNeural"
+    }
+  },
+  "schedule_defaults": {
+    "timezone_offset": "+07:00",
+    "daily_slots": [
+      "02:00",
+      "19:00"
+    ],
+    "min_hours_ahead": 2
+  },
+  "rate_limits": {
+    "min_delay_seconds_between_uploads": 120,
+    "max_uploads_per_run": 5
+  }
+}

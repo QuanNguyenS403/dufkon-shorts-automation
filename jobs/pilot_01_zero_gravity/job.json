@@ -1,0 +1,52 @@
+{
+  "id": "pilot_01_zero_gravity",
+  "niche": "science_human_limits",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voice_rate": "+6%",
+  "title": "What Happens to Your Brain in 60 Seconds of Zero Gravity? 🧠",
+  "description": "What actually happens inside your skull the moment gravity disappears? Within seconds, your inner ear panics and blood rushes upward—triggering one of space travel's strangest phenomena.\n\nWould you survive a week in orbit? Comment below!\n\n#Shorts #Science #Space #HumanBody #Astronomy",
+  "tags": [
+    "zero gravity",
+    "human brain in space",
+    "human body limits",
+    "science shorts",
+    "space facts",
+    "astronauts",
+    "microgravity"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "The second gravity vanishes, your brain thinks you are falling forever.",
+      "flow_prompt": "Vertical 9:16 cinematic 3D medical-sci-fi shot inside a dark space station cupola, an astronaut in silhouette floating upward in slow motion as water droplets lift into shimmering spheres around them, dramatic rim lighting, ultra-detailed photorealistic, smooth push-in camera, no text, no watermark"
+    },
+    {
+      "index": 2,
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "Without downward pull, fluids rush straight to your skull, swelling your face and squeezing your optic nerves.",
+      "flow_prompt": "Vertical 9:16 translucent glowing 3D anatomical visualization of a human head and upper torso in dark space, luminous blue fluid streams flowing upward toward the brain and behind the eyes, crisp scientific CGI render, dramatic contrast, slow orbital camera motion, no text"
+    },
+    {
+      "index": 3,
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "At the same time, your inner ear loses track of up and down, triggering intense space motion sickness.",
+      "flow_prompt": "Vertical 9:16 extreme macro 3D scientific animation of the human inner ear vestibular labyrinth glowing in amber and cyan inside a dark translucent skull, tiny floating crystals drifting weightlessly in zero gravity, moody studio lighting, smooth dolly zoom, no text"
+    },
+    {
+      "index": 4,
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Within days, your brain literally shifts upward inside your skull and rewires how it maps balance.",
+      "flow_prompt": "Vertical 9:16 cinematic 3D cutaway of a glowing human brain gently floating upward inside the cranium while golden neural pathways spark and rewire across the cortex, deep obsidian background, high-precision scientific visualization, smooth macro pan, no text"
+    },
+    {
+      "index": 5,
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Even back on Earth, astronauts still drop coffee cups mid-air—because the brain forgets gravity exists.",
+      "flow_prompt": "Vertical 9:16 cinematic slow-motion shot in a sunlit modern kitchen on Earth, a person's hand releasing a ceramic coffee mug in mid-air expecting it to float before it begins to fall, dramatic shallow depth of field, photorealistic, smooth camera tilt, no text"
+    }
+  ]
+}

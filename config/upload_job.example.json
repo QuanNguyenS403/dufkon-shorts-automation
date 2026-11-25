@@ -1,0 +1,14 @@
+{
+  "mode": "shorts",
+  "video_path": "output/example_shorts.mp4",
+  "title": "Ví dụ tiêu đề YouTube Short",
+  "description": "Mô tả ngắn gọn nội dung gốc của bạn.",
+  "tags": ["shorts", "youtube"],
+  "category_id": "22",
+  "language": "vi",
+  "privacy_status": "private",
+  "publish_at": null,
+  "thumbnail_path": null,
+  "made_for_kids": false,
+  "contains_synthetic_media": false
+}

@@ -1,0 +1,84 @@
+name: Dufkon 24/7 YouTube Shorts Producer
+
+on:
+  schedule:
+    # Runs 3 times daily (08:00, 16:00, 00:00 +07:00) even when local PC is offline
+    - cron: "0 1,9,17 * * *"
+  workflow_dispatch:
+    inputs:
+      target_buffer_days:
+        description: "Minimum days of scheduled Shorts buffer on YouTube"
+        required: false
+        default: "14"
+      batch_limit:
+        description: "Max new Shorts to produce per run"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dufkon-shorts-producer
+  cancel-in-progress: false
+
+jobs:
+  produce-and-schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CI: "true"
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+
+    steps:
+      - name: Checkout automation state
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install FFmpeg and system fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg fonts-dejavu-core fonts-liberation
+
+      - name: Install Python dependencies
+        run: pip install --no-cache-dir -r requirements.txt
+
+      - name: Restore YouTube OAuth credentials
+        shell: bash
+        run: |
+          mkdir -p secrets
+          printf '%s' "$YOUTUBE_CLIENT_SECRETS_JSON" > secrets/client_secrets.json
+          printf '%s' "$YOUTUBE_TOKEN_JSON" > secrets/token.json
+        env:
+          YOUTUBE_CLIENT_SECRETS_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRETS_JSON }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+
+      - name: Run continuous YouTube Shorts producer
+        run: |
+          python -u scripts/continuous_producer.py \
+            --target-buffer-days "${{ inputs.target_buffer_days || '14' }}" \
+            --batch-limit "${{ inputs.batch_limit || '3' }}"
+
+      - name: Cleanup runner temporary media
+        if: always()
+        run: |
+          rm -rf secrets output jobs/*/clips jobs/*/build
+
+      - name: Commit and push updated schedule ledger
+        if: always()
+        run: |
+          git config user.name "Dufkon Automation Bot"
+          git config user.email "dufkonltd@gmail.com"
+          git add jobs/ PRODUCTION_LEDGER.json PRODUCTION_SCHEDULE.md producer_daemon.log
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(shorts): auto-sync YouTube schedule ledger"
+            git pull --rebase origin main || true
+            git push origin HEAD:main
+          fi

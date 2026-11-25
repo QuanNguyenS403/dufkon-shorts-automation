@@ -1,0 +1,73 @@
+{
+  "id": "batch_02_stop_sleeping",
+  "niche": "science_human_limits",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Hyper-realistic scientific 3D visualization in a deep obsidian void illuminated by electric cyan and neon crimson rim lighting, crisp volumetric depth, macro cellular detail, high-contrast cinematic shadows, ultra-sharp 8k medical CGI aesthetic.",
+  "title": "What Happens If You Don't Sleep for 11 Days?",
+  "description": "In 1964, a 17-year-old pushed the human brain to its absolute breaking point by staying awake for 264 hours. Here is the terrifying biological chain reaction that made Guinness ban the record forever. What is the longest you have ever stayed awake? #Shorts #Science #SleepDeprivation #HumanBody #BrainFacts",
+  "tags": [
+    "sleep deprivation",
+    "11 days no sleep",
+    "randy gardner experiment",
+    "human limits science",
+    "what happens if you stop sleeping",
+    "brain facts",
+    "neuroscience shorts",
+    "youtube shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "In 1964, a teenager stayed awake for eleven days straight, and his brain started eating itself.",
+      "flow_prompt": "Photorealistic macro 3D CGI of a glowing translucent human brain suspended in a deep obsidian void, electric cyan neural pathways flickering violently with neon crimson rim lighting, subtle digital clock fragments dissolving around the cortex, sharp focus, no text, no watermark",
+      "stock_query": "glowing human brain",
+      "transition": "auto"
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "After seventy-two hours without sleep, toxic proteins flood your neurons while your prefrontal cortex literally shuts down.",
+      "flow_prompt": "Hyper-realistic microscopic 3D medical animation of dark toxic amyloid protein clusters swarming glowing cyan brain neurons inside a shadowy obsidian space, neon crimson warning glow spreading across the frontal lobe, high-contrast rim lighting, sharp focus, no text, no watermark",
+      "stock_query": "brain neurons synapse",
+      "transition": "zoomin"
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "So by day five, you aren't just tired—you start dreaming while your eyes are wide open.",
+      "flow_prompt": "Extreme close-up photorealistic CGI of a wide-open human eye reflecting surreal distorted cyan and neon crimson dreamscape silhouettes in the iris, dark obsidian backdrop, sharp volumetric rim lighting on the eyelashes and cornea, no text, no watermark",
+      "stock_query": "wide open eye",
+      "transition": "smoothleft"
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Yes, waking hallucinations strike alongside microsleeps, where parts of your brain crash even as you walk.",
+      "flow_prompt": "Photorealistic 3D anatomical visualization of a glowing human silhouette walking in an obsidian void as half of its illuminated cyan brain suddenly goes pitch dark with erratic neon crimson sparks, sharp high-contrast rim lighting, no text, no watermark",
+      "stock_query": "sleepy person walking",
+      "transition": "dissolve"
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "He survived with zero permanent damage, yet scientists banned the record forever because sleep deprivation can kill.",
+      "flow_prompt": "Cinematic photorealistic 3D CGI of a fragile glowing cyan human heart and brain connected by pulsing light veins inside an obsidian void, a crimson shockwave fading into calm restorative blue light, sharp high-contrast rim lighting, no text, no watermark",
+      "stock_query": "sleeping peacefully dark",
+      "transition": "circleopen"
+    }
+  ]
+}

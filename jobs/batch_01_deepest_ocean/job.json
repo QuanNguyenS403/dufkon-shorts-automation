@@ -1,0 +1,73 @@
+{
+  "id": "batch_01_deepest_ocean",
+  "niche": "science_human_limits",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Photorealistic 8K scientific CGI visualization set in the pitch-black abyss of the Mariana Trench, featuring a translucent glowing 3D human anatomical model and deep-sea marine physics. Color palette dominated by abyssal indigo, obsidian black, electric cyan bioluminescence, and crimson internal anatomical highlights. Crisp volumetric underwater rim lighting, floating marine snow particles, ultra-sharp macro focus, dramatic high-contrast shadows.",
+  "title": "What Happens to Your Body in the Mariana Trench?",
+  "description": "At 11,000 meters below the ocean, the pressure is unimaginable. Here is the exact millisecond-by-millisecond science of what extreme deep-sea crushing force does to human anatomy. Would you ever dare ride a titanium submarine to the Challenger Deep? Comment below! #Shorts #MarianaTrench #ScienceFacts #HumanLimits #DeepSea",
+  "tags": [
+    "Mariana Trench",
+    "deep sea pressure",
+    "human body limits",
+    "ocean science",
+    "Challenger Deep",
+    "extreme physics",
+    "YouTube Shorts",
+    "scientific visualization"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "If you teleported to the bottom of the Mariana Trench, your body wouldn't just sink—it would vanish.",
+      "flow_prompt": "Photorealistic 8K CGI of a glowing translucent 3D human silhouette suddenly plunging into the pitch-black abyss of the Mariana Trench, surrounded by swirling electric cyan bioluminescent marine snow, sharp volumetric rim lighting, deep indigo water turbulence, dramatic high-contrast shadows, no text, no watermark",
+      "stock_query": "deep ocean abyss underwater",
+      "transition": "auto"
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At eleven kilometers down, water pressure hits sixteen thousand pounds per square inch—like fifty jumbo jets crushing you.",
+      "flow_prompt": "Ultra-crisp 8K scientific CGI visualizing immense underwater shockwave rings compressing toward a translucent 3D human figure in abyssal indigo water, glowing electric cyan force vectors and dense pressure ripples, towering ghostly silhouettes of fifty giant jetliners stacked above in dark ocean mist, high-contrast rim lighting, no text, no watermark",
+      "stock_query": "dark ocean depth water",
+      "transition": "zoomin"
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Wait—if it hits that hard, what actually happens to your lungs and skeleton first?",
+      "flow_prompt": "Photorealistic 8K macro 3D medical CGI cross-section of a glowing translucent human ribcage and pulsing crimson lungs suspended in pitch-black deep-sea water, intense electric cyan pressure arrows pressing inward against the chest cavity, sharp volumetric rim lighting, floating abyssal particles, no text, no watermark",
+      "stock_query": "human lungs anatomy 3d",
+      "transition": "smoothleft"
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Your air-filled lungs and sinuses instantly implode inward, while extreme pressure turns fat and cell membranes waxy.",
+      "flow_prompt": "Ultra-crisp 8K scientific CGI showing glowing crimson 3D human lungs and cranial sinuses rapidly collapsing inward under crushing abyssal pressure, transitioning seamlessly to microscopic 3D cellular lipid membranes solidifying into rigid crystalline waxy structures in deep indigo and cyan bioluminescent lighting, high-contrast rim light, no text, no watermark",
+      "stock_query": "microscopic cells biology 3d",
+      "transition": "dissolve"
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Yet somehow, bizarre trench fish thrive there! Would you ever take a submarine down? Tell us below!",
+      "flow_prompt": "Photorealistic 8K deep-sea CGI of a ghostly translucent Mariana snailfish gliding effortlessly across dark volcanic trench seabed past a sleek titanium deep-sea research submersible with bright cyan floodlights piercing the abyssal indigo darkness, dramatic volumetric rim lighting, floating marine snow, no text, no watermark",
+      "stock_query": "deep sea submarine abyss",
+      "transition": "circleopen"
+    }
+  ]
+}

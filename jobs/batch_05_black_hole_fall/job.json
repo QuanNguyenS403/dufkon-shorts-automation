@@ -1,0 +1,72 @@
+{
+  "id": "batch_05_black_hole_fall",
+  "niche": "science_human_limits",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Deep cosmic void, dramatic accretion disc glow, high-contrast astrophysical phenomenon",
+  "title": "What Happens If You Fall Into a Black Hole? #Shorts",
+  "description": "What happens if you cross the event horizon of a supermassive black hole? From spaghettification to freezing in time forever. Would you dare take the plunge? Let us know in the comments! #Shorts #Space #Science #BlackHole",
+  "tags": [
+    "black hole",
+    "space science",
+    "astronomy",
+    "spaghettification",
+    "event horizon",
+    "physics",
+    "shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What actually happens to your body if you fall into a real black hole?",
+      "flow_prompt": "Massive supermassive black hole with glowing golden accretion disk bending light and space in deep cosmos, no text, no watermark",
+      "stock_query": "black hole space",
+      "transition": "auto"
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "As you approach the event horizon, gravitational tidal forces pull far harder on your feet than your head.",
+      "flow_prompt": "Extreme gravitational lensing bending starfield around dark cosmic sphere, no text, no watermark",
+      "stock_query": "gravitational lensing",
+      "transition": "auto"
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "This difference stretches your body into a microscopic stream of atoms, a violent process called spaghettification!",
+      "flow_prompt": "Luminous stream of plasma and matter being pulled into dark cosmic vortex, no text, no watermark",
+      "stock_query": "black hole matter",
+      "transition": "auto"
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "To an outside observer, time dilates so severely you seem to freeze at the horizon forever as light fades to black.",
+      "flow_prompt": "Glowing horizon of warped light and infinite darkness with stars bending at the boundary of reality, no text, no watermark",
+      "stock_query": "event horizon space",
+      "transition": "auto"
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Inside the central singularity, all known laws of physics collapse completely. Would you look back?",
+      "flow_prompt": "Hypothetical singularity at center of spacetime rupture with brilliant bursts of quantum energy, no text, no watermark",
+      "stock_query": "deep space singularity",
+      "transition": "auto"
+    }
+  ]
+}

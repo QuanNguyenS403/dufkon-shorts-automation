@@ -1,0 +1,73 @@
+{
+  "id": "batch_04_sun_goes_dark",
+  "niche": "science_human_limits",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K hyper-detailed space documentary style, deep cosmic blue and dramatic solar flare orange color palette, high-contrast rim lighting, photorealistic textures, dramatic volumetric atmosphere, no text, no watermark",
+  "title": "What If The Sun Just Turned Off For 24 Hours?",
+  "description": "Have you ever wondered what would happen to Earth if the Sun vanished for just one single day? Drop your survival guess in the comments below! #Shorts #Science #Space #Sun",
+  "tags": [
+    "Sun turned off",
+    "science shorts",
+    "what if",
+    "space mysteries",
+    "Earth without sun",
+    "astronomy facts",
+    "solar eclipse",
+    "extreme science"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What would actually happen to Earth if the Sun suddenly blinked out for twenty four hours?",
+      "flow_prompt": "Cinematic shot of our glowing yellow sun instantly plunging into total pitch black darkness, eerie cosmic corona, high-contrast rim lighting, photorealistic 8K, no text, no watermark",
+      "stock_query": "sun disappearing dark space",
+      "transition": "auto"
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "Well, shockingly, we wouldn't even notice it's gone for the first eight minutes because light takes time to travel.",
+      "flow_prompt": "Photorealistic photon beams racing across the dark vacuum of space towards the glowing blue curve of planet Earth, cinematic lighting, 8K resolution, no text, no watermark",
+      "stock_query": "light traveling space earth",
+      "transition": "dissolve"
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Right, but once those eight minutes are up, instant midnight hits the entire planet simultaneously.",
+      "flow_prompt": "Fast time-lapse of daylight turning into pitch black night across major city skylines worldwide, glowing streetlights instantly failing, dramatic atmosphere, no text, no watermark",
+      "stock_query": "city lights dark time lapse",
+      "transition": "zoomin"
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Temperatures would plummet rapidly, plunging major cities into sub zero freezing in under twenty four hours.",
+      "flow_prompt": "Macro view of frost and ice crystals rapidly forming over urban landscapes and green forests under a star-filled freezing sky, cinematic 8K, no text, no watermark",
+      "stock_query": "ice freezing fast macro",
+      "transition": "wipeup"
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Luckily, gravity keeps us locked in orbit, so we wouldn't float away when the lights come back on.",
+      "flow_prompt": "Stunning dramatic sunrise bursting back into existence over the curvature of planet Earth, brilliant golden hour light scattering through the atmosphere, 8K, no text, no watermark",
+      "stock_query": "earth sunrise space view",
+      "transition": "circleopen"
+    }
+  ]
+}

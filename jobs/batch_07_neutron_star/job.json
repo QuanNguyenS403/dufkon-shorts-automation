@@ -1,0 +1,73 @@
+{
+  "id": "batch_07_neutron_star",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "High-contrast scientific phenomenon, vivid cinematic lighting, ultra-sharp detail",
+  "title": "What If A Teaspoon of Neutron Star Landed On Earth? (Massive Gravitati",
+  "description": "Exploring the extreme physics behind What If A Teaspoon of Neutron Star Landed On Earth? (Massive Gravitational Impact). Would our world survive? Leave your thoughts in the comments! #Shorts #Science #Physics #Teaspoon",
+  "tags": [
+    "teaspoon",
+    "neutron",
+    "science",
+    "physics",
+    "mindblowing",
+    "space",
+    "facts",
+    "shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What would actually happen to our reality if what if a teaspoon of neutron star landed on earth? (massive gravitational impact)?",
+      "flow_prompt": "Dramatic cinematic visualization of What If A Teaspoon of Neutron Star Landed On Earth? (Massive Gravitational Impact) in photorealistic detail with dynamic lighting, no text, no watermark",
+      "stock_query": "teaspoon neutron",
+      "transition": "auto"
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "The scientific physics behind this are far more devastating than most people realize.",
+      "flow_prompt": "Scientific cross section and macro physical forces unleashing extreme energy, no text, no watermark",
+      "stock_query": "teaspoon science",
+      "transition": "auto"
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "In less than three seconds, the cascading pressure and thermal shift would reach catastrophic levels!",
+      "flow_prompt": "Extreme shockwave expanding across atmosphere and landscape with intense particle discharge, no text, no watermark",
+      "stock_query": "teaspoon energy",
+      "transition": "auto"
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Fundamental molecular equilibrium breaks down, permanently altering the surrounding environment forever.",
+      "flow_prompt": "Microscopic atomic lattice fracturing under immense gravitational and electromagnetic forces, no text, no watermark",
+      "stock_query": "neutron space",
+      "transition": "auto"
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Could human technology ever prevent an event like this? Tell us what you think below!",
+      "flow_prompt": "Vast cosmic vista with stars shining brightly against deep nebula space, no text, no watermark",
+      "stock_query": "teaspoon space",
+      "transition": "auto"
+    }
+  ]
+}

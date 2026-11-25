@@ -1,0 +1,33 @@
+# Credentials & tokens (NEVER commit)
+secrets/
+*.json.bak
+client_secret*.json
+token*.json
+
+# Media & output staging (keep presenter assets tracked for cloud runners)
+media/
+output/
+jobs/*/clips/
+jobs/*/build/
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.ass
+*.png
+*.jpg
+*.jpeg
+*.webp
+!assets/
+!assets/**
+!assets/**/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Nested public GitHub Pages site repo
+site/

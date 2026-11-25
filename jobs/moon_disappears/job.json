@@ -1,0 +1,64 @@
+{
+  "id": "moon_disappears",
+  "niche": "science_human_limits",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voice_rate": "+6%",
+  "character_setting_bible": "A focused 30-year-old male astrophysicist with short dark hair wearing a sleek matte-black and silver EVA flight suit inside a dimly lit orbital glass observation deck overlooking Earth, illuminated by cool cyan console glow and stark crisp sunlight, deep indigo space palette, photorealistic cinematic realism.",
+  "title": "What If the Moon Vanished Right Now?",
+  "description": "The Moon looks peaceful in the night sky, but it is secretly holding Earth's entire climate together. If it vanished tonight, hyper-winds, collapsed tides, and extreme seasons would reshape our planet forever. Could humanity survive a six-hour day—tell us in the comments! #Shorts #Space #Science #Moon #Astrophysics",
+  "tags": [
+    "what if moon disappeared",
+    "moon vanished",
+    "earth without moon",
+    "space facts",
+    "science shorts",
+    "astrophysics",
+    "human survival",
+    "youtube shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "If the Moon suddenly vanished, Earth would break in seconds.",
+      "flow_prompt": "Vertical 9:16 cinematic shot, a focused 30-year-old male astrophysicist with short dark hair wearing a sleek matte-black and silver EVA flight suit inside a dimly lit orbital glass observation deck overlooking Earth, watching the glowing full Moon violently vanish into nothingness in deep indigo space, cool cyan console glow and stark crisp sunlight on his face, dramatic camera push-in, no text, no watermark",
+      "stock_query": "full moon space",
+      "transition": "auto"
+    },
+    {
+      "index": 2,
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "First, ocean tides drop seventy-five percent, starving coastal ecosystems and stalling global ocean currents fast.",
+      "flow_prompt": "Vertical 9:16 cinematic shot, the same 30-year-old male astrophysicist with short dark hair in a sleek matte-black and silver EVA flight suit looking down through the dimly lit orbital glass observation deck as Earth's oceans recede dramatically from coastlines below, cool cyan console glow and stark crisp sunlight, deep indigo space palette, smooth lateral pan, no text, no watermark",
+      "stock_query": "ocean waves aerial",
+      "transition": "zoomin"
+    },
+    {
+      "index": 3,
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Without lunar gravity dragging our spin, Earth accelerates, shrinking days to six hours and unleashing hyper-winds.",
+      "flow_prompt": "Vertical 9:16 cinematic shot, the same 30-year-old male astrophysicist with short dark hair in a sleek matte-black and silver EVA flight suit bracing against a console inside the dimly lit orbital glass observation deck while Earth below spins rapidly with violent swirling hurricane bands, cool cyan console glow and stark crisp sunlight, deep indigo space palette, no text, no watermark",
+      "stock_query": "earth hurricane space",
+      "transition": "smoothleft"
+    },
+    {
+      "index": 4,
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Worse, Earth's tilt wobbles wildly without its stabilizer, plunging continents into freezing ice ages or scorching deserts.",
+      "flow_prompt": "Vertical 9:16 cinematic shot, the same 30-year-old male astrophysicist with short dark hair in a sleek matte-black and silver EVA flight suit studying a glowing cyan orbital hologram inside the dimly lit orbital glass observation deck as Earth outside tilts drastically between frozen white ice caps and scorched amber land, cool cyan console glow and stark crisp sunlight, deep indigo space palette, no text, no watermark",
+      "stock_query": "earth globe space",
+      "transition": "wipeup"
+    },
+    {
+      "index": 5,
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Our silent neighbor isn't just a pretty rock—it's the hidden anchor keeping human life alive.",
+      "flow_prompt": "Vertical 9:16 cinematic shot, slow pull-back on the same 30-year-old male astrophysicist with short dark hair in a sleek matte-black and silver EVA flight suit standing inside the dimly lit orbital glass observation deck gazing thoughtfully at a serene blue Earth in deep indigo space, cool cyan console glow and stark crisp sunlight, no text, no watermark",
+      "stock_query": "earth from space",
+      "transition": "dissolve"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "batch_13_speed_of_light_needle",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "High-contrast scientific phenomenon, vivid cinematic lighting, ultra-sharp detail",
+  "title": "What If A Sewing Needle Hit Earth At 99% The Speed Of Light? (Relativi",
+  "description": "Exploring the extreme physics behind What If A Sewing Needle Hit Earth At 99% The Speed Of Light? (Relativistic Impact). Would our world survive? Leave your thoughts in the comments! #Shorts #Science #Physics #Sewing",
+  "tags": [
+    "sewing",
+    "needle",
+    "science",
+    "physics",
+    "mindblowing",
+    "space",
+    "facts",
+    "shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What would actually happen to our reality if what if a sewing needle hit earth at 99% the speed of light? (relativistic impact)?",
+      "flow_prompt": "Dramatic cinematic visualization of What If A Sewing Needle Hit Earth At 99% The Speed Of Light? (Relativistic Impact) in photorealistic detail with dynamic lighting, no text, no watermark",
+      "stock_query": "sewing needle",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "The scientific physics behind this are far more devastating than most people realize.",
+      "flow_prompt": "Scientific cross section and macro physical forces unleashing extreme energy, no text, no watermark",
+      "stock_query": "sewing science",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "In less than three seconds, the cascading pressure and thermal shift would reach catastrophic levels!",
+      "flow_prompt": "Extreme shockwave expanding across atmosphere and landscape with intense particle discharge, no text, no watermark",
+      "stock_query": "sewing energy",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Fundamental molecular equilibrium breaks down, permanently altering the surrounding environment forever.",
+      "flow_prompt": "Microscopic atomic lattice fracturing under immense gravitational and electromagnetic forces, no text, no watermark",
+      "stock_query": "needle space",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Could human technology ever prevent an event like this? Tell us what you think below!",
+      "flow_prompt": "Vast cosmic vista with stars shining brightly against deep nebula space, no text, no watermark",
+      "stock_query": "sewing space",
+      "transition": "auto",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "natural_studio"
+}

@@ -3,6 +3,15 @@
 from __future__ import annotations
 
 import subprocess
+if hasattr(subprocess, "CREATE_NO_WINDOW") and not getattr(subprocess.run, "_no_window", False):
+    _orig_subprocess_run = subprocess.run
+
+    def _run_no_window(*args, **kwargs):
+        kwargs.setdefault("creationflags", subprocess.CREATE_NO_WINDOW)
+        return _orig_subprocess_run(*args, **kwargs)
+
+    _run_no_window._no_window = True
+    subprocess.run = _run_no_window
 from pathlib import Path
 
 

@@ -13,6 +13,15 @@ from dotenv import load_dotenv
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 import subprocess
+if hasattr(subprocess, "CREATE_NO_WINDOW") and not getattr(subprocess.run, "_no_window", False):
+    _orig_subprocess_run = subprocess.run
+
+    def _run_no_window(*args, **kwargs):
+        kwargs.setdefault("creationflags", subprocess.CREATE_NO_WINDOW)
+        return _orig_subprocess_run(*args, **kwargs)
+
+    _run_no_window._no_window = True
+    subprocess.run = _run_no_window
 
 HTTP_HEADERS = {"User-Agent": "YoutubeShortsAutomation/1.0 (https://dufkon.com; contact@dufkon.com)"}
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".webp"}

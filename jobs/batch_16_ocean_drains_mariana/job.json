@@ -1,0 +1,80 @@
+{
+  "id": "batch_16_ocean_drains_mariana",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "High-contrast scientific phenomenon, vivid cinematic lighting, ultra-sharp detail",
+  "title": "What If A 10-Meter Drain Opened At The Bottom Of The Mariana Trench? #",
+  "description": "Exploring the extreme physics behind What If A 10-Meter Drain Opened At The Bottom Of The Mariana Trench. Would our world survive? Leave your thoughts in the comments! #Shorts #Science #Physics #10-Meter",
+  "tags": [
+    "10-meter",
+    "drain",
+    "science",
+    "physics",
+    "mindblowing",
+    "space",
+    "facts",
+    "shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What would actually happen to our reality if what if a 10-meter drain opened at the bottom of the mariana trench?",
+      "flow_prompt": "Dramatic cinematic visualization of What If A 10-Meter Drain Opened At The Bottom Of The Mariana Trench? in photorealistic detail with dynamic lighting, no text, no watermark",
+      "stock_query": "10-meter drain",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "The scientific physics behind this are far more devastating than most people realize.",
+      "flow_prompt": "Scientific cross section and macro physical forces unleashing extreme energy, no text, no watermark",
+      "stock_query": "10-meter science",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "In less than three seconds, the cascading pressure and thermal shift would reach catastrophic levels!",
+      "flow_prompt": "Extreme shockwave expanding across atmosphere and landscape with intense particle discharge, no text, no watermark",
+      "stock_query": "10-meter energy",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Fundamental molecular equilibrium breaks down, permanently altering the surrounding environment forever.",
+      "flow_prompt": "Microscopic atomic lattice fracturing under immense gravitational and electromagnetic forces, no text, no watermark",
+      "stock_query": "drain space",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Could human technology ever prevent an event like this? Tell us what you think below!",
+      "flow_prompt": "Vast cosmic vista with stars shining brightly against deep nebula space, no text, no watermark",
+      "stock_query": "10-meter space",
+      "transition": "auto",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "mixed_real_first"
+}

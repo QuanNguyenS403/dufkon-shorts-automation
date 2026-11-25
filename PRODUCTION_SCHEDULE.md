@@ -1,10 +1,10 @@
 # BẢNG ĐỐI CHIẾU SẢN XUẤT & LỊCH ĐĂNG YOUTUBE SHORTS (Dufkon)
 
-- **Cập nhật lần cuối:** `2026-11-25T16:16:49.552060+07:00`
+- **Cập nhật lần cuối:** `2026-11-26T02:16:13.164551+07:00`
 - **Kênh YouTube:** `Dufkon` (`UCVEH1Fr34ceSw4FY27i656A`)
 - **Khung giờ đăng cố định:** `02:00, 19:00` hàng ngày (`2 video/ngày`, Múi giờ `+07:00`)
-- **Tổng số Job đã tạo:** `17` | **Đã Render MP4:** `17` | **Đã Upload & Lên lịch:** `17`
-- **Số video đã Công khai (Public):** `3` | **Quỹ dự trữ đã hẹn giờ:** `14 video (7.0 ngày)`
+- **Tổng số Job đã tạo:** `20` | **Đã Render MP4:** `20` | **Đã Upload & Lên lịch:** `20`
+- **Số video đã Công khai (Public):** `5` | **Quỹ dự trữ đã hẹn giờ:** `15 video (7.5 ngày)`
 - **Số video bỏ sót chưa lên lịch (Orphans):** `0` (Không có - 0% bỏ sót)
 
 | STT | Mã Job (`job_id`) | Video ID | Trạng thái YouTube | Lịch phát sóng (`+07:00`) | Thời lượng / Size | Views / Likes | Tiêu đề |
@@ -12,8 +12,8 @@
 | 1 | `moon_disappears` | [`iBe7_YBvpOM`](https://www.youtube.com/shorts/iBe7_YBvpOM) | **PUBLIC_LIVE** | `2026-11-24T00:20:37 (Đăng ngay)` | 35.17s / 28.78 MB | 26 views / 1 likes | What If the Moon Vanished Right Now? |
 | 2 | `pilot_01_zero_gravity` | [`-HDcafQhDxY`](https://www.youtube.com/shorts/-HDcafQhDxY) | **PUBLIC_LIVE** | `2026-11-24T00:22:59 (Đăng ngay)` | 32.4s / 40.09 MB | 22 views / 1 likes | What Happens to Your Brain in 60 Seconds of Zero Gravity? 🧠 |
 | 3 | `batch_01_deepest_ocean` | [`1T7rliOWtgA`](https://www.youtube.com/shorts/1T7rliOWtgA) | **PUBLIC_LIVE** | `2026-11-24T19:00:00+07:00` | 31.83s / 94.44 MB | 38 views / 1 likes | What Happens to Your Body in the Mariana Trench? |
-| 4 | `batch_02_stop_sleeping` | [`jVqiVT4H49k`](https://www.youtube.com/shorts/jVqiVT4H49k) | **SCHEDULED_ON_YOUTUBE** | `2026-11-25T19:00:00+07:00` | 34.26s / 75.01 MB | 0 views / 0 likes | What Happens If You Don't Sleep for 11 Days? |
-| 5 | `batch_09_lightning_strike` | [`ViiwCQhNU4I`](https://www.youtube.com/shorts/ViiwCQhNU4I) | **SCHEDULED_ON_YOUTUBE** | `2026-11-26T02:00:00+07:00` | 29.22s / 23.53 MB | 0 views / 0 likes | What Actually Happens When Lightning Strikes An Airplane? (Faraday Shi |
+| 4 | `batch_02_stop_sleeping` | [`jVqiVT4H49k`](https://www.youtube.com/shorts/jVqiVT4H49k) | **PUBLIC_LIVE** | `2026-11-25T19:00:00+07:00` | 34.26s / 75.01 MB | 0 views / 0 likes | What Happens If You Don't Sleep for 11 Days? |
+| 5 | `batch_09_lightning_strike` | [`ViiwCQhNU4I`](https://www.youtube.com/shorts/ViiwCQhNU4I) | **PUBLIC_LIVE** | `2026-11-26T02:00:00+07:00` | 29.22s / 23.53 MB | 0 views / 0 likes | What Actually Happens When Lightning Strikes An Airplane? (Faraday Shi |
 | 6 | `batch_03_earth_stops_spinning` | [`tkOHse5M3xM`](https://www.youtube.com/shorts/tkOHse5M3xM) | **SCHEDULED_ON_YOUTUBE** | `2026-11-26T19:00:00+07:00` | 31.94s / 73.36 MB | 0 views / 0 likes | What If Earth Stopped Spinning for 1 Second? |
 | 7 | `batch_10_magnetar_burst` | [`SJDGoICO76o`](https://www.youtube.com/shorts/SJDGoICO76o) | **SCHEDULED_ON_YOUTUBE** | `2026-11-27T02:00:00+07:00` | 29.17s / 53.85 MB | 0 views / 0 likes | The Deadliest Star In The Universe: What A Magnetar Would Do To Earth? |
 | 8 | `batch_04_sun_goes_dark` | [`8aaZnVgNDE8`](https://www.youtube.com/shorts/8aaZnVgNDE8) | **SCHEDULED_ON_YOUTUBE** | `2026-11-27T19:00:00+07:00` | 29.35s / 61.49 MB | 0 views / 0 likes | What If The Sun Just Turned Off For 24 Hours? |
@@ -26,3 +26,6 @@
 | 15 | `batch_14_jupiter_swallows_earth` | [`pssnsDhAaI0`](https://www.youtube.com/shorts/pssnsDhAaI0) | **SCHEDULED_ON_YOUTUBE** | `2026-12-01T02:00:00+07:00` | 31.1s / 28.29 MB | 0 views / 0 likes | What Would You See If You Fell Inside Jupiter's Atmosphere? (Metallic  |
 | 16 | `batch_08_rogue_planet` | [`OL_neHGj6nQ`](https://www.youtube.com/shorts/OL_neHGj6nQ) | **SCHEDULED_ON_YOUTUBE** | `2026-12-01T19:00:00+07:00` | 29.43s / 32.31 MB | 0 views / 0 likes | What If A Rogue Planet Entered Our Solar System? (Gravitational Catast |
 | 17 | `batch_15_sun_becomes_black_hole` | [`dGJyI4AWhgk`](https://www.youtube.com/shorts/dGJyI4AWhgk) | **SCHEDULED_ON_YOUTUBE** | `2026-12-02T02:00:00+07:00` | 31.52s / 27.54 MB | 0 views / 0 likes | What Happens If You Fall Into a Black Hole? #Shorts |
+| 18 | `batch_16_ocean_drains_mariana` | [`qL4nBbT4iTs`](https://www.youtube.com/shorts/qL4nBbT4iTs) | **SCHEDULED_ON_YOUTUBE** | `2026-12-03T19:00:00+07:00` | 29.27s / 27.75 MB | 0 views / 0 likes | What If A 10-Meter Drain Opened At The Bottom Of The Mariana Trench? # |
+| 19 | `batch_17_gamma_ray_burst` | [`yYs2sREt-W0`](https://www.youtube.com/shorts/yYs2sREt-W0) | **SCHEDULED_ON_YOUTUBE** | `2026-12-04T02:00:00+07:00` | 29.33s / 23.21 MB | 0 views / 0 likes | What If A Gamma-Ray Burst Hit Earth From 1,000 Light-Years Away? #Shor |
+| 20 | `batch_18_gravity_doubles` | [`E1PLlGkpAUI`](https://www.youtube.com/shorts/E1PLlGkpAUI) | **SCHEDULED_ON_YOUTUBE** | `2026-12-04T19:00:00+07:00` | 31.0s / 24.7 MB | 0 views / 0 likes | What If Earth's Gravity Suddenly Doubled Right Now? (Structural & Huma |

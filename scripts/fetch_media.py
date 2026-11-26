@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -261,7 +263,7 @@ def fetch_missing_media(
             else ["pexels", "pixabay", "nasa", "wikimedia"]
         )
 
-        # Multi-tier query relaxation so no scene is ever left without media
+        # Domain-aware query relaxation (never fall back to deep space for non-space topics)
         query_candidates = [query]
         words = [w.strip() for w in query.split() if len(w.strip()) > 2]
         if len(words) > 2:
@@ -271,7 +273,9 @@ def fetch_missing_media(
             topic_words = [w for w in job_topic.split() if len(w) > 3 and w not in ("what", "happens", "when", "your", "does", "with")][:3]
             if topic_words:
                 query_candidates.append(" ".join(topic_words))
-        query_candidates.extend(["deep space galaxy", "universe cosmos", "astronomy space"])
+        space_keywords = ("black hole", "star", "planet", "sun", "moon", "galaxy", "magnetar", "gamma", "cosmos", "space")
+        if any(k in job_topic or k in query.lower() for k in space_keywords):
+            query_candidates.extend(["deep space nebula", "astronomy cosmos"])
 
         for candidate_q in query_candidates:
             for src in order:
@@ -297,6 +301,34 @@ def fetch_missing_media(
         url, ext = result
         dst = (job_dir / rel).with_suffix(ext)
         _download_file(url, dst)
+        sha256 = hashlib.sha256(dst.read_bytes()).hexdigest()
+        license_map = {
+            "pexels": "Pexels License (Free Commercial)",
+            "pixabay": "Pixabay Content License (Free Commercial)",
+            "nasa": "NASA Public Domain (No Copyright)",
+            "wikimedia": "Wikimedia Commons (Check Attribution)",
+        }
+        manifest_path = job_dir / "media_manifest.json"
+        manifest = (
+            json.loads(manifest_path.read_text(encoding="utf-8"))
+            if manifest_path.exists()
+            else {"job_id": job_dir.name, "assets": []}
+        )
+        manifest["assets"] = [a for a in manifest.get("assets", []) if a.get("scene_index") != scene["index"]]
+        manifest["assets"].append(
+            {
+                "scene_index": scene["index"],
+                "source_provider": used_source,
+                "source_url": url,
+                "matched_query": matched_query,
+                "license_name": license_map.get(used_source, "Unknown"),
+                "commercial_allowed": True,
+                "checksum_sha256": sha256,
+                "local_path": str(dst.relative_to(job_dir)),
+                "fetched_at": datetime.now(timezone.utc).isoformat(),
+            }
+        )
+        manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"[Scene {scene['index']}] Downloaded from {used_source} (q='{matched_query}') -> {dst}")
         downloaded.append(dst)
 

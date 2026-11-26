@@ -1,0 +1,15 @@
+version: "2026-11-26.v1"
+blocked_fallback_signatures:
+  - "in less than three seconds, the cascading pressure and thermal shift"
+  - "the scientific physics behind this are far more devastating than most people realize"
+  - "fundamental molecular equilibrium breaks down, permanently altering the surrounding environment forever"
+  - "could human technology ever prevent an event like this? tell us what you think below"
+blocked_irrelevant_queries_for_non_space:
+  - "deep space galaxy"
+  - "universe cosmos"
+  - "astronomy space"
+operational_guards:
+  allow_generic_fallback_in_production: false
+  require_qc_pass_before_upload: true
+  require_single_publisher_lock: true
+  max_rework_loops_per_episode: 2

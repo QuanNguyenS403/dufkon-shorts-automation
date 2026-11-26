@@ -1,0 +1,20 @@
+mission_version: "2026-11-26.v1"
+channel_handle: "@dufkon"
+expected_channel_id: "UCVEH1Fr34ceSw4FY27i656A"
+expected_email: "dufkonltd@gmail.com"
+mission: "Explain a scientific hypothesis or extreme physics scenario using verified evidence and Dufkon-edited visuals."
+audience: "General science-curious viewers, English narration"
+formats:
+  - "host_guest_illustrated"
+  - "self_drawn_diagram_explainer"
+pilot_duration_seconds: [25, 45]
+max_publications_per_day: 2
+daily_slots_local: ["02:00", "19:00"]
+timezone: "Asia/Ho_Chi_Minh"
+timezone_offset: "+07:00"
+incremental_cash_cap_vnd_per_month: 0
+initial_release_mode: "private_test"
+on_unresolved_rights: "replace_asset_or_skip_episode"
+publisher_authority:
+  primary_mode: "single_publisher_only"
+  note: "Only one active publisher may write schedules to YouTube at a time; local SQLite WAL tracks intent and video_id."

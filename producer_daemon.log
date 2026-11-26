@@ -42,3 +42,14 @@
 [2026-11-25 19:08:36] ✅ Scheduled batch_17_gamma_ray_burst -> Video ID: yYs2sREt-W0
 [2026-11-25 19:08:36] ⏳ Cooling down for 120s per YouTube API rate limit...
 [2026-11-25 19:16:13] ✅ Scheduled batch_18_gravity_doubles -> Video ID: E1PLlGkpAUI
+[2026-11-26 14:12:20] 📊 [STATUS] Current Buffer: 15/28 scheduled Shorts (2 slots/day: 02:00, 19:00 | Latest: 2026-12-04T19:00:00+07:00).
+[2026-11-26 14:12:20] 🚀 Buffer deficit: 13 slot(s). Producing & immediately scheduling 3 new Short(s) in this cycle...
+[2026-11-26 14:12:48] ❌ Error producing batch_19_venus_terraforming: GEMINI_UNAVAILABLE (): Generic fallback is blocked by Dufkon QC policy.
+[2026-11-26 14:13:09] ❌ Error producing batch_19_venus_terraforming: GEMINI_UNAVAILABLE (): Generic fallback is blocked by Dufkon QC policy.
+[2026-11-26 14:13:30] ❌ Error producing batch_19_venus_terraforming: GEMINI_UNAVAILABLE (): Generic fallback is blocked by Dufkon QC policy.
+[2026-11-26 14:14:57] 📊 [STATUS] Current Buffer: 15/28 scheduled Shorts (2 slots/day: 02:00, 19:00 | Latest: 2026-12-04T19:00:00+07:00).
+[2026-11-26 14:14:57] 🚀 Buffer deficit: 13 slot(s). Producing & immediately scheduling 3 new Short(s) in this cycle...
+[2026-11-26 14:22:08] ✅ Scheduled batch_19_venus_terraforming -> Video ID: T5d7QMiqMqc
+[2026-11-26 14:22:08] ⏳ Cooling down for 120s per YouTube API rate limit...
+[2026-11-26 14:26:09] ❌ Error producing batch_20_false_vacuum_decay: GEMINI_UNAVAILABLE (TimeoutError()): Generic fallback is blocked by Dufkon QC policy.
+[2026-11-26 14:28:10] ❌ Error producing batch_20_false_vacuum_decay: GEMINI_UNAVAILABLE (TimeoutError()): Generic fallback is blocked by Dufkon QC policy.

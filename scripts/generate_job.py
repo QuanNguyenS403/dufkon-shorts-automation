@@ -34,6 +34,10 @@ class SceneSpec(BaseModel):
     stock_query: str = Field(
         description="2-4 word English keyword query for free stock B-roll (NASA/Wikimedia/Pexels/Pixabay)"
     )
+    source_citation: str = Field(
+        default="",
+        description="Primary scientific source or physical law supporting this scene's claim",
+    )
     transition: Literal[
         "auto", "smoothleft", "zoomin", "dissolve", "wipeup", "circleopen"
     ] = Field(default="auto", description="FFmpeg xfade transition entering this scene")
@@ -203,6 +207,7 @@ def generate_short_job(
     niche: str = "science_human_limits",
     model: str = "gemini-3.5-flash",
     num_scenes: int = 5,
+    allow_fallback: bool = False,
 ) -> Path:
     """Call Gemini Interactions API (Free Tier) to produce a complete job.json."""
     load_dotenv(REPO_ROOT / ".env")
@@ -216,7 +221,7 @@ def generate_short_job(
     from google import genai
     from google.genai import types
 
-    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=10000))
+    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=120000))
     if language == "vi":
         voice = "vi-VN-NamMinhNeural"
         voices = {"host": "vi-VN-NamMinhNeural", "guest": "vi-VN-HoaiMyNeural"}
@@ -236,7 +241,8 @@ Retention, Host/Guest Dialogue & Visual Clarity Rules:
 4. `flow_prompt` MUST depict the vivid scientific phenomenon, 3D anatomy, cosmic event, or dramatic visual subject directly (do NOT put podcast microphones or studio hosts in `flow_prompt`, because the Host & Guest appear in a dedicated split-screen presenter panel below). Maintain consistent color palette and lighting from `character_setting_bible`, with sharp focus, high-contrast rim lighting, and end each `flow_prompt` with `no text, no watermark`.
 5. Set `clip_file` to `clips/scene_01.mp4` ... `clips/scene_{num_scenes:02d}.mp4`.
 6. Final scene must deliver a payoff and lead into a comment-driving CTA in `description`.
-7. Use `voice` = "{voice}", `voices` = {json.dumps(voices)}, and `voice_rate` = "+6%"."""
+7. Use `voice` = "{voice}", `voices` = {json.dumps(voices)}, and `voice_rate` = "+6%".
+8. NEVER use generic AI clichés ("In today's video", "Have you ever wondered", "Buckle up", "cascading pressure and thermal shift", "fundamental molecular equilibrium breaks down"). Cite concrete physical mechanisms and numbers in `source_citation`."""
 
     import concurrent.futures
 
@@ -246,7 +252,7 @@ Retention, Host/Guest Dialogue & Visual Clarity Rules:
     try:
         future = executor.submit(
             client.interactions.create,
-            model="gemini-3.5-flash",
+            model=model,
             input=prompt,
             response_format={
                 "type": "text",
@@ -254,14 +260,18 @@ Retention, Host/Guest Dialogue & Visual Clarity Rules:
                 "schema": ShortJobSpec.model_json_schema(),
             },
         )
-        interaction = future.result(timeout=8.0)
+        interaction = future.result(timeout=120.0)
     except Exception as exc:  # noqa: BLE001
         last_exc = exc
     finally:
         executor.shutdown(wait=False, cancel_futures=True)
 
     if interaction is None:
-        print(f"[Warn] Gemini API models unavailable ({last_exc}). Falling back to structured science template...")
+        if not allow_fallback:
+            raise RuntimeError(
+                f"GEMINI_UNAVAILABLE ({repr(last_exc)}): Generic fallback is blocked by Dufkon QC policy."
+            )
+        print(f"[Warn] Gemini API models unavailable ({repr(last_exc)}). Using explicit --allow-fallback...")
         spec = build_fallback_job_spec(topic=topic, niche=niche, language=language, num_scenes=num_scenes)
     else:
         spec = ShortJobSpec.model_validate_json(interaction.output_text)
@@ -285,8 +295,9 @@ def main() -> None:
     parser.add_argument("--job-id", type=str, default=None, help="Optional folder name under jobs/")
     parser.add_argument("--language", choices=["en", "vi"], default="en")
     parser.add_argument("--niche", type=str, default="science_human_limits")
-    parser.add_argument("--model", type=str, default="gemini-4-hydrogen")
+    parser.add_argument("--model", type=str, default="gemini-3.5-flash")
     parser.add_argument("--scenes", type=int, default=5)
+    parser.add_argument("--allow-fallback", action="store_true", help="Allow structured fallback only for offline testing")
     args = parser.parse_args()
 
     out_path = generate_short_job(
@@ -296,6 +307,7 @@ def main() -> None:
         niche=args.niche,
         model=args.model,
         num_scenes=args.scenes,
+        allow_fallback=args.allow_fallback,
     )
     print(f"Generated job spec: {out_path}")
 

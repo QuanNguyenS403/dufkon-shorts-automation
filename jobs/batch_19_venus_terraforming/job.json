@@ -1,0 +1,85 @@
+{
+  "id": "batch_19_venus_terraforming",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Hyper-realistic cinematic sci-fi visual style, toxic golden-amber atmospheric haze, intense thermal glow from surface rocks, volumetric heat shimmer, high-contrast rim lighting, photorealistic 8k render aesthetic.",
+  "title": "What Happens on Venus Without a Spacesuit? 🌋",
+  "description": "Stepping onto Venus without protection results in instant catastrophic failure. Between 93 atmospheres of crushing pressure and 900 degree heat, human survival is measured in milliseconds. Which extreme cosmic body should we explore next? Comment below! #Shorts #SpaceScience #Astronomy #Venus #Physics",
+  "tags": [
+    "venus",
+    "extreme science",
+    "space exploration",
+    "what if space",
+    "human body in space",
+    "astronomy",
+    "planetary science",
+    "physics"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "If you stepped onto the surface of Venus right now, you wouldn't even have time to gasp.",
+      "flow_prompt": "Cinematic wide shot of the scorching surface of Venus under heavy amber sky, volcanic basalt rocks glowing red, intense volumetric heat shimmer, hyper-realistic 8k render, sharp focus, high-contrast rim lighting, no text, no watermark",
+      "stock_query": "venus surface atmosphere render",
+      "source_citation": "NASA Magellan Mission atmospheric profile data",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "First, Venus's atmosphere hits you with ninety-three bar of pressure. That’s equivalent to being deep underwater beneath a kilometer of ocean.",
+      "flow_prompt": "3D anatomical visual render of a human skeletal frame collapsing uniformly under extreme hydrostatic atmospheric force, deep amber background, high contrast, sharp focus, rim lighting, no text, no watermark",
+      "stock_query": "extreme pressure crush simulation",
+      "source_citation": "Barometric equation at Venus surface (9.3 MPa)",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "So your lungs instantly collapse—but what about the blistering four hundred and seventy-five degree temperature?",
+      "flow_prompt": "Close-up cinematic detail of supercritical carbon dioxide fluid swirling furiously over glowing volcanic basalt terrain, radiant thermal energy, sharp focus, rim lighting, no text, no watermark",
+      "stock_query": "scorching heat planetary surface",
+      "source_citation": "Venera lander surface temperature measurements (475°C)",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "At nine hundred degrees Fahrenheit, body tissues cook instantly while concentrated sulfuric acid clouds disintegrate organic matter in under a second.",
+      "flow_prompt": "Microscopic thermal visualization of organic cellular structures incinerating instantly inside dense acidic vapor mist, vivid fiery orange lighting, sharp focus, rim lighting, no text, no watermark",
+      "stock_query": "thermal incineration cellular mist",
+      "source_citation": "Venus Cloud Deck Composition (sulfuric acid aerosol droplets)",
+      "transition": "wipeup",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "You are crushed, cooked, and dissolved before your brain can process pain. Which planetary body should we drop you on next?",
+      "flow_prompt": "Dramatic pull-back cosmic view of planet Venus glowing with golden clouds against deep space stars, majestic and terrifying scale, photorealistic render, sharp focus, rim lighting, no text, no watermark",
+      "stock_query": "planet venus space view render",
+      "source_citation": "Planetary habitability limits and human physiology",
+      "transition": "dissolve",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "mixed_real_first"
+}

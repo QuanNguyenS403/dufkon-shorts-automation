@@ -13,10 +13,12 @@ from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPTS_DIR.parent
 if str(SCRIPTS_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPTS_DIR))
 
 from prep_video import probe_video, validate_thumbnail  # noqa: E402
+from qc_gate import validate_job_for_publish  # noqa: E402
 from youtube_auth import get_authenticated_youtube_service, load_policy  # noqa: E402
 
 RETRIABLE_STATUS_CODES = {500, 502, 503, 504}
@@ -103,6 +105,14 @@ def upload_from_job(job: dict[str, Any], dry_run: bool = False) -> str | None:
     validate_media_for_mode(video_path, mode=mode, policy=policy)
     if thumbnail_path:
         validate_thumbnail(thumbnail_path)
+
+    job_dir_raw = job.get("job_dir")
+    if job_dir_raw:
+        validate_job_for_publish(Path(job_dir_raw), video_path)
+    elif mode == "shorts":
+        inferred_job_dir = REPO_ROOT / "jobs" / video_path.stem.removesuffix("_shorts")
+        if (inferred_job_dir / "job.json").exists():
+            validate_job_for_publish(inferred_job_dir, video_path)
 
     body = build_request_body(job, policy)
 

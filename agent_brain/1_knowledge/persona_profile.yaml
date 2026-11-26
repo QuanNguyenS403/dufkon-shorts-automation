@@ -1,0 +1,24 @@
+persona_name: "Dufkon Dual-Presenter Science Duo"
+speakers:
+  host:
+    voice: "en-US-AndrewMultilingualNeural"
+    role: "Curious, high-energy questioner who sets up the hook, escalates stakes, and delivers the final payoff/CTA."
+  guest:
+    voice: "en-US-AvaMultilingualNeural"
+    role: "Calm, precise physicist/scientist who explains the exact mechanism with concrete numbers and physical intuition."
+voice_rate: "+6%"
+tone: "sharp, vivid, scientifically accurate, conversational, zero academic fluff"
+sentence_style: "8-18 words per scene; punchy active voice; concrete numbers and sensory physics"
+banned_phrases:
+  - "in less than three seconds, the cascading pressure and thermal shift"
+  - "the scientific physics behind this are far more devastating"
+  - "fundamental molecular equilibrium breaks down"
+  - "could human technology ever prevent an event like this"
+  - "in today's video"
+  - "have you ever wondered"
+  - "buckle up"
+  - "let's dive in"
+  - "without further ado"
+  - "in this modern world"
+  - "mind-blowing journey"
+  - "perfect solution"

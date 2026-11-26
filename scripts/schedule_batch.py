@@ -23,6 +23,7 @@ for _stream in (sys.stdout, sys.stderr):
             pass
 
 from assemble_short import assemble_short, resolve_scene_media  # noqa: E402
+from db import finalize_publication, upsert_publication_intent  # noqa: E402
 from generate_audio import build_audio_and_captions  # noqa: E402
 from prep_video import probe_video  # noqa: E402
 from upload_video import upload_from_job  # noqa: E402
@@ -363,6 +364,7 @@ def schedule_and_upload_immediately(
 
     upload_payload = {
         "mode": "shorts",
+        "job_dir": str(job_dir),
         "video_path": str(video_file),
         "title": job["title"],
         "description": job.get("description", ""),
@@ -374,8 +376,34 @@ def schedule_and_upload_immediately(
         "contains_synthetic_media": bool(job.get("contains_synthetic_media", True)),
     }
 
+    channel_id = str(policy.get("account_lock", {}).get("channel_id", "UCVEH1Fr34ceSw4FY27i656A"))
+    if not dry_run:
+        upsert_publication_intent(
+            channel_id=channel_id,
+            episode_id=job_id,
+            revision=1,
+            idempotency_key=f"{channel_id}:{job_id}:rev1",
+            desired_privacy="private",
+            publish_at_utc=publish_at,
+            status="UPLOADING",
+        )
+
     print(f"🚀 [Immediate Auto-Schedule] Uploading {job_id} -> YouTube publishAt={publish_at}")
-    video_id = upload_from_job(upload_payload, dry_run=dry_run)
+    try:
+        video_id = upload_from_job(upload_payload, dry_run=dry_run)
+    except Exception:
+        if not dry_run:
+            upsert_publication_intent(
+                channel_id=channel_id,
+                episode_id=job_id,
+                revision=1,
+                idempotency_key=f"{channel_id}:{job_id}:rev1",
+                desired_privacy="private",
+                publish_at_utc=publish_at,
+                status="RECONCILE",
+            )
+        raise
+
     if dry_run:
         return {"job_id": job_id, "video_id": "dry_run_id", "publish_at": publish_at}
 
@@ -385,6 +413,7 @@ def schedule_and_upload_immediately(
             mp4_duration_s = round(probe_video(video_file).duration, 2)
         except Exception:
             mp4_duration_s = 0.0
+        uploaded_at_iso = datetime.now(parse_tz_offset(tz_offset)).isoformat()
         receipt = {
             "job_id": job_id,
             "video_id": video_id,
@@ -394,9 +423,17 @@ def schedule_and_upload_immediately(
             "mp4_duration_s": mp4_duration_s,
             "publish_at": publish_at,
             "privacy_status": "private",
-            "uploaded_at": datetime.now(parse_tz_offset(tz_offset)).isoformat(),
+            "uploaded_at": uploaded_at_iso,
         }
         receipt_path.write_text(json.dumps(receipt, indent=2, ensure_ascii=False), encoding="utf-8")
+        finalize_publication(
+            channel_id=channel_id,
+            episode_id=job_id,
+            video_id=video_id,
+            actual_privacy="private",
+            status="SCHEDULED",
+            uploaded_at=uploaded_at_iso,
+        )
         sync_production_ledger()
         print(f"✅ [Immediate Auto-Schedule] Locked {job_id} -> Video ID: {video_id} @ {publish_at}")
         return receipt

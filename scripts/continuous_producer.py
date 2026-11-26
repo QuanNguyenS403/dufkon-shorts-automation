@@ -32,9 +32,11 @@ for _stream in (sys.stdout, sys.stderr):
             pass
 
 from assemble_short import assemble_short, resolve_scene_media  # noqa: E402
+from db import acquire_job_lease, release_job_lease  # noqa: E402
 from fetch_media import fetch_missing_media  # noqa: E402
 from generate_audio import build_audio_and_captions  # noqa: E402
 from generate_job import generate_short_job, slugify  # noqa: E402
+from qc_gate import evaluate_job_spec  # noqa: E402
 from schedule_batch import (  # noqa: E402
     collect_taken_slots,
     generate_publish_slots,
@@ -279,6 +281,10 @@ def produce_and_schedule_single_job(
     else:
         print("[Step 1/5] Existing job spec found.")
 
+    qc_pre = evaluate_job_spec(job_dir, video_path=None)
+    if qc_pre["decision"] != "PASS":
+        raise RuntimeError(f"Pre-render QC blocked {job_id} ({qc_pre['decision']}, score={qc_pre['score']}): {qc_pre['reasons']}")
+
     job = json.loads(job_path.read_text(encoding="utf-8"))
 
     # 2. Audio & Captions Synthesis
@@ -320,20 +326,30 @@ def produce_and_schedule_single_job(
     return None
 
 
-def sweep_unscheduled_ready_outputs(dry_run: bool = False, min_delay: int = 120) -> int:
-    """Immediately upload & schedule any already-rendered Short MP4 that lacks an upload_receipt.json."""
+def sweep_unscheduled_ready_outputs(
+    dry_run: bool = False,
+    min_delay: int = 120,
+    limit: int = 3,
+) -> int:
+    """Immediately upload & schedule any already-rendered Short MP4 that passes QC and lacks a receipt."""
     scheduled = 0
     for job_path in sorted(JOBS_DIR.glob("*/job.json")):
+        if scheduled >= limit:
+            break
         job_dir = job_path.parent
         if has_valid_upload_receipt(job_dir):
             continue
         final_mp4 = OUTPUT_DIR / f"{job_dir.name}_shorts.mp4"
         if final_mp4.exists():
+            qc_res = evaluate_job_spec(job_dir, video_path=final_mp4)
+            if qc_res["decision"] != "PASS":
+                print(f"⛔ [QC Sweep Skip] {job_dir.name}: {qc_res['decision']} ({qc_res['score']}/100) - {qc_res['reasons']}")
+                continue
             print(f"⚡ [Zero-Orphan Sweep] Found rendered MP4 without YouTube schedule: {final_mp4.name}")
             receipt = schedule_and_upload_immediately(job_path=job_path, final_mp4=final_mp4, dry_run=dry_run)
             if receipt and receipt.get("video_id"):
                 scheduled += 1
-                if not dry_run:
+                if not dry_run and scheduled < limit:
                     time.sleep(min_delay)
     return scheduled
 
@@ -353,9 +369,10 @@ def run_producer_cycle(
     target_slots = target_buffer_days * slots_per_day
     limits = policy.get("rate_limits", {})
     min_delay = int(limits.get("min_delay_seconds_between_uploads", 120))
+    worker_id = f"producer_{os.getpid()}"
 
-    # Always sweep any rendered-but-unscheduled MP4 first so zero source is ever orphaned
-    swept = sweep_unscheduled_ready_outputs(dry_run=dry_run, min_delay=min_delay)
+    # Always sweep any rendered-but-unscheduled MP4 first (capped by batch_limit)
+    swept = sweep_unscheduled_ready_outputs(dry_run=dry_run, min_delay=min_delay, limit=batch_limit)
 
     booked_count, latest_dt = count_booked_future_days(tz_offset)
     log_daemon(
@@ -369,12 +386,21 @@ def run_producer_cycle(
         sync_production_ledger()
         return swept
 
-    to_produce = min(deficit, batch_limit)
+    remaining_budget = max(0, batch_limit - swept)
+    to_produce = min(deficit, remaining_budget)
+    if to_produce == 0:
+        sync_production_ledger()
+        return swept
+
     log_daemon(f"🚀 Buffer deficit: {deficit} slot(s). Producing & immediately scheduling {to_produce} new Short(s) in this cycle...")
 
     produced = swept
+    errors = 0
     for idx in range(to_produce):
         job_id, topic = discover_next_topic()
+        if not acquire_job_lease(job_id, stage="produce", owner=worker_id, ttl_seconds=1800):
+            log_daemon(f"🔒 [Lease Busy] Skipping {job_id}: active lease held by another worker.")
+            continue
         try:
             vid = produce_and_schedule_single_job(
                 job_id=job_id,
@@ -385,10 +411,13 @@ def run_producer_cycle(
             if vid:
                 produced += 1
                 log_daemon(f"✅ Scheduled {job_id} -> Video ID: {vid}")
+                release_job_lease(job_id, stage="produce", owner=worker_id)
                 if idx + 1 < to_produce and not dry_run:
                     log_daemon(f"⏳ Cooling down for {min_delay}s per YouTube API rate limit...")
                     time.sleep(min_delay)
         except Exception as exc:
+            errors += 1
+            release_job_lease(job_id, stage="produce", owner=worker_id, last_error=str(exc))
             log_daemon(f"❌ Error producing {job_id}: {exc}")
             import traceback
 
@@ -396,6 +425,8 @@ def run_producer_cycle(
             continue
 
     sync_production_ledger()
+    if produced == 0 and errors > 0:
+        raise RuntimeError(f"Producer cycle failed all {errors} attempted job(s) with 0 Shorts produced.")
     return produced
 
 

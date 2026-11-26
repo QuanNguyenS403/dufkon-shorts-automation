@@ -23,11 +23,15 @@ jobs/*/build/
 !assets/**
 !assets/**/*.mp4
 
-# Python
+# Python & Local DB
 __pycache__/
 *.pyc
+*.bak
 .venv/
 .env
+data/*.db
+data/*.db-wal
+data/*.db-shm
 
 # Nested public GitHub Pages site repo
 site/

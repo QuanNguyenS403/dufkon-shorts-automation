@@ -1,10 +1,10 @@
 # BẢNG ĐỐI CHIẾU SẢN XUẤT & LỊCH ĐĂNG YOUTUBE SHORTS (Dufkon)
 
-- **Cập nhật lần cuối:** `2026-11-26T14:28:10.676275+07:00`
+- **Cập nhật lần cuối:** `2026-11-26T15:16:29.758579+07:00`
 - **Kênh YouTube:** `Dufkon` (`UCVEH1Fr34ceSw4FY27i656A`)
 - **Khung giờ đăng cố định:** `02:00, 19:00` hàng ngày (`2 video/ngày`, Múi giờ `+07:00`)
-- **Tổng số Job đã tạo:** `21` | **Đã Render MP4:** `21` | **Đã Upload & Lên lịch:** `21`
-- **Số video đã Công khai (Public):** `5` | **Quỹ dự trữ đã hẹn giờ:** `16 video (8.0 ngày)`
+- **Tổng số Job đã tạo:** `24` | **Đã Render MP4:** `24` | **Đã Upload & Lên lịch:** `24`
+- **Số video đã Công khai (Public):** `5` | **Quỹ dự trữ đã hẹn giờ:** `19 video (9.5 ngày)`
 - **Số video bỏ sót chưa lên lịch (Orphans):** `0` (Không có - 0% bỏ sót)
 
 | STT | Mã Job (`job_id`) | Video ID | Trạng thái YouTube | Lịch phát sóng (`+07:00`) | Thời lượng / Size | Views / Likes | Tiêu đề |
@@ -30,3 +30,6 @@
 | 19 | `batch_17_gamma_ray_burst` | [`yYs2sREt-W0`](https://www.youtube.com/shorts/yYs2sREt-W0) | **SCHEDULED_ON_YOUTUBE** | `2026-12-04T02:00:00+07:00` | 29.66s / 23.39 MB | 0 views / 0 likes | What If A Gamma-Ray Burst Hit Earth From 1,000 Light-Years Away? #Shor |
 | 20 | `batch_18_gravity_doubles` | [`E1PLlGkpAUI`](https://www.youtube.com/shorts/E1PLlGkpAUI) | **SCHEDULED_ON_YOUTUBE** | `2026-12-04T19:00:00+07:00` | 31.0s / 24.7 MB | 0 views / 0 likes | What If Earth's Gravity Suddenly Doubled Right Now? (Structural & Huma |
 | 21 | `batch_19_venus_terraforming` | [`T5d7QMiqMqc`](https://www.youtube.com/shorts/T5d7QMiqMqc) | **SCHEDULED_ON_YOUTUBE** | `2026-12-05T02:00:00+07:00` | 36.67s / 35.36 MB | 0 views / 0 likes | What Happens on Venus Without a Spacesuit? 🌋 |
+| 22 | `batch_20_false_vacuum_decay` | [`TNf64bODNdo`](https://www.youtube.com/shorts/TNf64bODNdo) | **SCHEDULED_ON_YOUTUBE** | `2026-12-05T19:00:00+07:00` | 32.2s / 22.19 MB | 0 views / 0 likes | The Quantum Bubble That Can Delete Reality Instantly |
+| 23 | `batch_21_supervolcano_yellowstone` | [`WDMskU04FYg`](https://www.youtube.com/shorts/WDMskU04FYg) | **SCHEDULED_ON_YOUTUBE** | `2026-12-06T02:00:00+07:00` | 31.72s / 33.12 MB | 0 views / 0 likes | What If Yellowstone Erupted Today? |
+| 24 | `batch_22_time_stops_1_minute` | [`twJxJMbkvqA`](https://www.youtube.com/shorts/twJxJMbkvqA) | **SCHEDULED_ON_YOUTUBE** | `2026-12-06T19:00:00+07:00` | 32.33s / 39.09 MB | 0 views / 0 likes | What Happens If Time Stops For Everyone But You? (Physics Explains) |

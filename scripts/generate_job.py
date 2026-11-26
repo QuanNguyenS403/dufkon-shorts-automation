@@ -205,7 +205,7 @@ def generate_short_job(
     job_id: str | None = None,
     language: str = "en",
     niche: str = "science_human_limits",
-    model: str = "gemini-3.5-flash",
+    model: str = "gemini-3.5-flash-lite",
     num_scenes: int = 5,
     allow_fallback: bool = False,
 ) -> Path:
@@ -221,7 +221,7 @@ def generate_short_job(
     from google import genai
     from google.genai import types
 
-    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=120000))
+    client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=60000))
     if language == "vi":
         voice = "vi-VN-NamMinhNeural"
         voices = {"host": "vi-VN-NamMinhNeural", "guest": "vi-VN-HoaiMyNeural"}
@@ -246,25 +246,30 @@ Retention, Host/Guest Dialogue & Visual Clarity Rules:
 
     import concurrent.futures
 
+    candidate_models = list(dict.fromkeys([model, "gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.5-flash"]))
     interaction = None
     last_exc: Exception | None = None
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
-    try:
-        future = executor.submit(
-            client.interactions.create,
-            model=model,
-            input=prompt,
-            response_format={
-                "type": "text",
-                "mime_type": "application/json",
-                "schema": ShortJobSpec.model_json_schema(),
-            },
-        )
-        interaction = future.result(timeout=120.0)
-    except Exception as exc:  # noqa: BLE001
-        last_exc = exc
-    finally:
-        executor.shutdown(wait=False, cancel_futures=True)
+    for candidate_model in candidate_models:
+        executor = concurrent.futures.ThreadPoolExecutor(max_workers=1)
+        try:
+            future = executor.submit(
+                client.interactions.create,
+                model=candidate_model,
+                input=prompt,
+                response_format={
+                    "type": "text",
+                    "mime_type": "application/json",
+                    "schema": ShortJobSpec.model_json_schema(),
+                },
+            )
+            interaction = future.result(timeout=60.0)
+            if interaction is not None:
+                break
+        except Exception as exc:  # noqa: BLE001
+            last_exc = exc
+            print(f"[Warn] Model {candidate_model} failed ({repr(exc)}), trying next...")
+        finally:
+            executor.shutdown(wait=False, cancel_futures=True)
 
     if interaction is None:
         if not allow_fallback:

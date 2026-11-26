@@ -1,0 +1,85 @@
+{
+  "id": "batch_21_supervolcano_yellowstone",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K documentary style, dramatic rim lighting, moody twilight atmosphere, realistic textures and physics, high contrast, vivid color grading, no text, no watermark",
+  "title": "What If Yellowstone Erupted Today?",
+  "description": "If Yellowstone erupted at full VEI-8 power today, two-thirds of the US would be uninhabitable within hours. Would humanity survive the nuclear winter that follows? Drop your survival strategy in the comments below! #Yellowstone #Supervolcano #Science #Shorts",
+  "tags": [
+    "Yellowstone supervolcano",
+    "VEI 8 eruption",
+    "volcanic winter",
+    "geology science",
+    "extreme earth",
+    "supervolcano eruption",
+    "US disaster scenario",
+    "science shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "If Yellowstone blows at full magnitude eight power today, North America vanishes from the map.",
+      "flow_prompt": "Hyper-realistic CGI aerial view of the North American continent with a massive glowing magma breach piercing the crust, ash clouds billowing into the stratosphere, cinematic lighting, 8k resolution, no text, no watermark",
+      "stock_query": "aerial earth eruption space",
+      "source_citation": "USGS Yellowstone Volcano Observatory hazard assessment",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "Correct. Over one thousand cubic kilometers of magma erupts instantly, generating pyroclastic surges traveling at supersonic speeds.",
+      "flow_prompt": "Macro simulation of glowing viscous magma violently fracturing and releasing superheated gas and ash into a dark sky, dramatic high-contrast lighting, no text, no watermark",
+      "stock_query": "magma explosion macro",
+      "source_citation": "Volcanic Explosivity Index VEI-8 physics parameters",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "And what happens to everyone living outside the initial blast zone?",
+      "flow_prompt": "Cinematic shot of a massive dense ash cloud rolling over a major American city, plunging day into pitch blackness, streetlights glowing eerily, no text, no watermark",
+      "stock_query": "volcanic ash city dark",
+      "source_citation": "Tephra fallout distribution models NOAA",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Sulfur dioxide reaches the stratosphere, blocking sunlight and triggering a decade-long volcanic winter with global crop failures.",
+      "flow_prompt": "Satellite view of planet Earth with a glowing yellow band of sulfur dioxide aerosols wrapping around the globe, icy continents below, no text, no watermark",
+      "stock_query": "earth stratosphere atmosphere",
+      "source_citation": "IPCC climate impact of large-scale volcanic aerosols",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Total planetary collapse in weeks. Would you survive the first year underground?",
+      "flow_prompt": "Dramatic close-up of a deep underground bunker steel door glowing from exterior heat, swirling dust motes in a shaft of light, no text, no watermark",
+      "stock_query": "underground bunker survival",
+      "source_citation": "Global catastrophe resilience studies",
+      "transition": "wipeup",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "real_camera"
+}

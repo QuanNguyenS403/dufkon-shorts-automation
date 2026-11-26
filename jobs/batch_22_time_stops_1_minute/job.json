@@ -1,0 +1,85 @@
+{
+  "id": "batch_22_time_stops_1_minute",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K documentary style, dramatic moody lighting with high contrast cyan and amber rim lighting, razor-sharp focus on physical matter and macro-scale structural breakdown, no text, no watermark",
+  "title": "What Happens If Time Stops For Everyone But You? (Physics Explains)",
+  "description": "If time stops, photons stop moving, plunging you into total blindness and turning the air into an absolute solid wall. Drop your physics theories in the comments! #Shorts #Physics #Science",
+  "tags": [
+    "time freeze physics",
+    "what if time stopped",
+    "extreme science",
+    "physics mysteries",
+    "quantum mechanics",
+    "speed of light physics",
+    "science shorts",
+    "relativity"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "If time suddenly froze for everyone except you, your very first second alive would be your last.",
+      "flow_prompt": "Ultra-detailed cinematic macro shot of a ticking mechanical pocket watch instantly freezing mid-tick, shattered glass suspended in midair, dramatic rim lighting, no text, no watermark",
+      "stock_query": "clock freezing time stop",
+      "source_citation": "Special Theory of Relativity, Lorentz Factor",
+      "transition": "auto",
+      "show_presenter": true
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "Photons stop moving. Because light particles are frozen in place, zero photons hit your retina, plunging you into absolute pitch blackness.",
+      "flow_prompt": "Cinematic hyper-realistic visualization of light beams freezing instantly into crystalline static rods inside a dark room, high contrast cyan rim light, no text, no watermark",
+      "stock_query": "light beam photons dark room",
+      "source_citation": "Maxwell's Equations of Electromagnetism",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Can you at least take a step forward and move around?",
+      "flow_prompt": "Close-up cinematic shot of a human sneaker hovering just above a concrete sidewalk surrounded by frozen dust motes, dramatic moody lighting, no text, no watermark",
+      "stock_query": "footstep pavement concrete",
+      "source_citation": "Newton's First Law of Motion",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "No. Air molecules are stationary. Moving forces you to walk into a solid wall of nitrogen and oxygen, instantly crushing your lungs.",
+      "flow_prompt": "Extreme macro 3D render of microscopic nitrogen and oxygen gas molecules frozen solid into an impenetrable lattice structure, amber edge glow, no text, no watermark",
+      "stock_query": "gas molecules lattice structure",
+      "source_citation": "Kinetic Theory of Gases",
+      "transition": "wipeup",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Time freezing is a death sentence. Tell us in the comments what superpower you would want instead!",
+      "flow_prompt": "Cinematic 8K wide shot of a solitary city street completely frozen in time at sunset, volumetric fog, dramatic amber and blue contrast lighting, no text, no watermark",
+      "stock_query": "empty city street sunset",
+      "source_citation": "Thermodynamics and Entropic Freeze",
+      "transition": "circleopen",
+      "show_presenter": true
+    }
+  ],
+  "resolved_presenter_layout": "hybrid",
+  "presenter_pair": "real_camera"
+}

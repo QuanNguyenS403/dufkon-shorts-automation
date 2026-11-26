@@ -1,0 +1,84 @@
+{
+  "id": "batch_20_false_vacuum_decay",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic dark cosmic aesthetic with deep obsidian blacks, glowing violet and electric blue quantum energy fields, hyper-detailed photorealistic CGI, dramatic high-contrast rim lighting, sharp focus, no text, no watermark",
+  "title": "The Quantum Bubble That Can Delete Reality Instantly",
+  "description": "Right now, our universe might be sitting in a fake vacuum that could collapse at the speed of light without warning. Would you want to know if it's coming, or remain blissfully unaware? #Shorts #Physics #Science",
+  "tags": [
+    "false vacuum decay",
+    "physics theories",
+    "scariest physics",
+    "quantum mechanics",
+    "universe end",
+    "space science",
+    "mind blowing facts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "Right now, reality itself might be sitting on a cosmic tripwire waiting to snap.",
+      "flow_prompt": "Cinematic 3D animation of a glowing fabric of space-time trembling under extreme quantum pressure, dark obsidian void, electric blue rim lighting, no text, no watermark",
+      "stock_query": "quantum space texture",
+      "source_citation": "Standard Model Higgs Vacuum Instability",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "It is called false vacuum decay. Our universe exists in a metastable state that is merely pretending to be stable.",
+      "flow_prompt": "Hyper-realistic simulation of a quantum energy landscape rolling ball trapped in a false valley before an impending drop, violet and gold particle glow, no text, no watermark",
+      "stock_query": "quantum field simulation",
+      "source_citation": "Coleman-De Luccia tunneling equations",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "And if quantum tunneling triggers a true vacuum bubble anywhere, it expands outward at light speed.",
+      "flow_prompt": "A sudden microscopic sphere of absolute nothingness expanding violently outward into glowing cosmic space, blinding flash of white energy, no text, no watermark",
+      "stock_query": "expanding energy wave space",
+      "source_citation": "Light speed propagation of true vacuum bubble",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "You would never see it coming. Atoms would instantly dissolve into pure energy as fundamental constants rewrite themselves.",
+      "flow_prompt": "Macro view of metallic atomic lattice structures violently disintegrating into pure violet light energy, photorealistic particle physics explosion, no text, no watermark",
+      "stock_query": "atomic disintegration abstract",
+      "source_citation": "Destruction of atomic binding energy",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Physics says it could happen in a billion years, or a millisecond. Drop your thoughts in the comments.",
+      "flow_prompt": "Eerie dark cosmic horizon with distant stars winking out of existence one by one into total blackness, dramatic rim lighting, no text, no watermark",
+      "stock_query": "dark universe fading stars",
+      "source_citation": "Probabilistic quantum decay timeline",
+      "transition": "dissolve",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "mixed_real_first"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "batch_25_titan_methane_rain",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic sci-fi aesthetic, dramatic volumetric lighting, ultra-detailed textures, cold blue and amber color palette, sharp photorealistic CGI style, high-contrast rim lighting.",
+  "title": "What If It Rained Gasoline on Titan? 🌧️🧊 #Shorts",
+  "description": "Imagine standing under a pitch-black sky while liquid methane drops soak your spacesuit at minus 290 degrees Fahrenheit! Would you survive Saturn's most extreme moon weather? Drop your survival strategy in the comments! #Shorts #Titan #SpaceScience",
+  "tags": [
+    "Titan moon",
+    "Saturn moon",
+    "methane rain",
+    "space science",
+    "extreme weather",
+    "astronomy",
+    "solar system",
+    "alien worlds"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "Imagine standing under a pitch black sky while drops of liquid natural gas soak your heavy spacesuit.",
+      "flow_prompt": "First-person perspective on Saturn's moon Titan with dark hazy orange skies and heavy droplets falling, cinematic 8k, no text, no watermark",
+      "stock_query": "Titan moon atmosphere",
+      "source_citation": "NASA Cassini Huygens Mission Data",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "You are on Titan, where hydrocarbon rain falls at minus two hundred and ninety degrees Fahrenheit.",
+      "flow_prompt": "Close-up of frozen methane landscape with glowing pools of liquid hydrocarbons under ringed Saturn in distance, no text, no watermark",
+      "stock_query": "methane rain titan surface",
+      "source_citation": "Atkins et al., Planetary Hydrocarbon Cycles",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Does it splash like water when it hits the ground?",
+      "flow_prompt": "Macro shot of a heavy cryogenic droplet splashing into a dark liquid methane puddle, high speed photography style, no text, no watermark",
+      "stock_query": "liquid splash slow motion",
+      "source_citation": "Huygens Surface Science Package",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Not quite. Gravity is one seventh of Earth's, so giant slow motion raindrops take ten seconds to fall.",
+      "flow_prompt": "Giant translucent raindrops slowly descending through thick nitrogen haze in ultra slow motion, dramatic rim lighting, no text, no watermark",
+      "stock_query": "slow motion rain drops",
+      "source_citation": "Lorenz & Mitton, Titan Unveiled",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Could you swim in a methane lake? Tell us your survival plan in the comments.",
+      "flow_prompt": "Vast dark methane sea reflecting distant sun and Saturn rings on the horizon, photorealistic space art, no text, no watermark",
+      "stock_query": "alien ocean titan",
+      "source_citation": "Stofan et al., Lakes on Titan",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "natural_studio"
+}

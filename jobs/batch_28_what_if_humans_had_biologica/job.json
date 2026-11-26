@@ -1,0 +1,85 @@
+{
+  "id": "batch_28_what_if_humans_had_biologica",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 3D hyper-detailed science visualization, high-contrast bioluminescent neon rim lighting, dark void background, deep amber and electric cyan color palette, photorealistic textures, shallow depth of field, no text, no watermark",
+  "title": "What If You Could See Through Walls With Sound?",
+  "description": "Imagine navigating pitch-black rooms using only high-frequency echolocation clicks like a bat. Could the human brain process that much acoustic data in real-time? Drop your thoughts in the comments below! #Shorts #Science #Echolocation #Biology #HumanLimits",
+  "tags": [
+    "human echolocation",
+    "biological sonar",
+    "bat echolocation",
+    "extreme biology",
+    "science shorts",
+    "human limits",
+    "sensory biology",
+    "bioacoustics"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "Close your eyes. What if your voice could map every hidden object in the next room?",
+      "flow_prompt": "Cinematic macro shot of human vocal cords vibrating at high frequency emitting glowing blue soundwaves into darkness, photorealistic 3D render, high-contrast rim lighting, no text, no watermark",
+      "stock_query": "sound waves visualization",
+      "source_citation": "Bioacoustics and Human Sensory Substitution Research",
+      "transition": "auto",
+      "show_presenter": true
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "Bats process up to two hundred clicks per second, resolving objects just fractions of a millimeter wide.",
+      "flow_prompt": "Anatomical close-up of a bat cochlea and inner ear structure glowing with electric gold energy pulses, extreme detail, dark background, no text, no watermark",
+      "stock_query": "bat echolocation anatomy",
+      "source_citation": "Journal of Comparative Physiology A: Sensory, Neural, and Behavioral Physiology",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "If humans had that, our brains would need massive acoustic processing upgrades to avoid sensory overload.",
+      "flow_prompt": "Abstract visualization of human brain neural pathways lighting up intensely with pulsing cyan acoustic data streams, cinematic lighting, no text, no watermark",
+      "stock_query": "brain neural network glowing",
+      "source_citation": "Neuroplasticity and Cortical Remapping in the Blind",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Your visual cortex would literally repurpose itself, turning echoes into vivid three-dimensional mental images.",
+      "flow_prompt": "Holographic wireframe room rendered entirely from bouncing sound waves in glowing amber and blue, photorealistic CGI, no text, no watermark",
+      "stock_query": "echolocation room wireframe",
+      "source_citation": "PLOS ONE: Functional MRI of Human Echolocation",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "You would never need a flashlight again. Would you want biological sonar? Let us know below.",
+      "flow_prompt": "A human silhouette standing in total darkness illuminated only by radiating pulses of neon sound waves revealing a complex cavern, cinematic, no text, no watermark",
+      "stock_query": "dark cave sound waves",
+      "source_citation": "Evolutionary Biology of Sensory Systems",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "hybrid",
+  "presenter_pair": "mixed_real_first"
+}

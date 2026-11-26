@@ -1,0 +1,9 @@
+{
+  "job_id": "batch_25_titan_methane_rain",
+  "decision": "PASS",
+  "score": 100,
+  "reasons": [],
+  "script_hash": "48449df340961fe44189e4d07526f1ae495cea5cf71275ac1d29841eb6bd540c",
+  "render_hash": "24f5a0b3f2308c4886cc78597fdff9c6609dd5e9957fae0e46be96b3d058477d",
+  "fallback_detected": false
+}

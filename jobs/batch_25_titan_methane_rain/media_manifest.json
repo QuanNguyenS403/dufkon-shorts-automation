@@ -1,0 +1,60 @@
+{
+  "job_id": "batch_25_titan_methane_rain",
+  "assets": [
+    {
+      "scene_index": 1,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/video/GSFC_20101216_Titan_m10705_Anderson/GSFC_20101216_Titan_m10705_Anderson~small.mp4",
+      "matched_query": "Titan moon atmosphere",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "3a6fd4118599563f9be7d17939fc509ae46f5c07c9290185bdcd5fe697a4de58",
+      "local_path": "clips/scene_01.mp4",
+      "fetched_at": "2026-11-26T09:07:34.300767+00:00"
+    },
+    {
+      "scene_index": 2,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/video/GSFC_20130930_Titan_m11339_Propylene/GSFC_20130930_Titan_m11339_Propylene~small.mp4",
+      "matched_query": "methane rain titan surface",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "6ab166cd4fb45674a7fd37df0cb7c6bf5341df7b612af87878c2248aba7db74d",
+      "local_path": "clips/scene_02.mp4",
+      "fetched_at": "2026-11-26T09:07:37.067196+00:00"
+    },
+    {
+      "scene_index": 3,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/image/KSC-2012-3040a/KSC-2012-3040a~orig.jpg",
+      "matched_query": "liquid splash",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "349ddc3bf04f162e704548c4da781998fc27d728ec716757a91a1e82090c1c4e",
+      "local_path": "clips/scene_03.jpg",
+      "fetched_at": "2026-11-26T09:07:39.208760+00:00"
+    },
+    {
+      "scene_index": 4,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/video/KSC-20221116--MH-FMX-01-0001-Artemis_1_slowmo_liftoff-3314595/KSC-20221116--MH-FMX-01-0001-Artemis_1_slowmo_liftoff-3314595~small.mp4",
+      "matched_query": "slow motion",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "b6a5d98fe662cd9b2be03f7516aef9db046ae636a12cbefe89c8ac015bd01fff",
+      "local_path": "clips/scene_04.mp4",
+      "fetched_at": "2026-11-26T09:07:42.087766+00:00"
+    },
+    {
+      "scene_index": 5,
+      "source_provider": "wikimedia",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Lrc-2022-b701_p-03161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "matched_query": "alien ocean titan",
+      "license_name": "Wikimedia Commons (Check Attribution)",
+      "commercial_allowed": true,
+      "checksum_sha256": "a050850c1107ab30dc919b90f34a32e89db96792deebcd37991a69c69ffaa5ca",
+      "local_path": "clips/scene_05.jpg",
+      "fetched_at": "2026-11-26T09:07:43.100784+00:00"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "batch_24_antimatter_gram",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K hyper-detailed CGI style, high-contrast dramatic rim lighting, vibrant nuclear orange and electric blue color palette, photorealistic physics simulation, crisp focus",
+  "title": "What If One Gram of Antimatter Dropped in Your City?",
+  "description": "Dropping just one gram of antimatter unleashes the destructive power of a massive thermonuclear warhead in an instant. Would your city survive the blast? Let me know in the comments below! #Shorts #Antimatter #Physics #Science",
+  "tags": [
+    "antimatter",
+    "physics",
+    "science",
+    "energy",
+    "explosion",
+    "nuclear",
+    "space",
+    "shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "Drop a single gram of antimatter onto your city, and reality instantly shatters.",
+      "flow_prompt": "A single glowing speck of antimatter falling toward a dense modern metropolis street level at dusk, macro lens, dramatic rim lighting, no text, no watermark",
+      "stock_query": "city street aerial night",
+      "source_citation": "E=mc^2 mass-energy equivalence",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "That tiny gram instantly annihilates upon contact with ordinary matter, releasing forty-three kilotons of pure energy.",
+      "flow_prompt": "Atomic level matter and antimatter particles colliding and emitting blinding gamma ray bursts, 3D microscopic visualization, no text, no watermark",
+      "stock_query": "particle collision physics animation",
+      "source_citation": "CERN particle annihilation data",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "That is equivalent to the Hiroshima atomic bomb detonating right beneath your feet.",
+      "flow_prompt": "A massive blinding fireball erupting upward from downtown city blocks, shockwave shattering skyscrapers in slow motion, no text, no watermark",
+      "stock_query": "nuclear explosion shockwave",
+      "source_citation": "Historical nuclear yield comparisons",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "A thermal flash vaporizes everything within a kilometer before anyone even hears the sound.",
+      "flow_prompt": "Intense thermal radiation wave turning urban concrete into glowing molten plasma, high contrast, cinematic, no text, no watermark",
+      "stock_query": "molten metal heat wave",
+      "source_citation": "Thermal radiation physics in nuclear blasts",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Fortunately, humanity has only produced mere nanograms so far. Drop your city in the comments!",
+      "flow_prompt": "Futuristic magnetic containment chamber safely holding glowing blue antimatter particles in suspended vacuum, laboratory setting, no text, no watermark",
+      "stock_query": "physics laboratory laser chamber",
+      "source_citation": "CERN ALPHA experiment containment records",
+      "transition": "wipeup",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "mixed_real_first"
+}

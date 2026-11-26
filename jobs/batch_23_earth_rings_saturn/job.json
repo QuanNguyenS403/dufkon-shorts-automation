@@ -1,0 +1,85 @@
+{
+  "id": "batch_23_earth_rings_saturn",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K documentary style, ultra-vivid photorealism, dramatic volumetric lighting, high-contrast cosmic color grading with deep blues and brilliant silver ice reflections, sharp focal depth, no text, no watermark",
+  "title": "What If Earth Had Giant Rings Like Saturn?",
+  "description": "Earth with ice rings would cast massive midnight shadows and trigger relentless meteor storms. Would you want to look up at Saturn-like rings every night? Drop your thoughts below and subscribe for more extreme science! #Shorts #EarthRings #SpaceScience #Astronomy",
+  "tags": [
+    "Earth rings",
+    "Saturn rings",
+    "extreme science",
+    "astronomy facts",
+    "meteor storm",
+    "space documentary",
+    "what if",
+    "cosmic events"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What if Earth suddenly gained massive, gleaming ice rings just like Saturn?",
+      "flow_prompt": "Photorealistic cinematic view of planet Earth surrounded by brilliant, glowing white ice particle rings shining brightly in the dark vacuum of space, volumetric lighting, stars in the background, sharp focus, no text, no watermark",
+      "stock_query": "Earth from space Saturn rings",
+      "source_citation": "Roche limit gravitational accretion mechanics",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "We would lose our night sky. The rings would reflect up to thirty times more light than the full moon.",
+      "flow_prompt": "Cinematic night landscape on Earth under massive luminous ice rings arching across the entire starry sky, casting bright silver illumination over dark mountain ranges, crisp detail, no text, no watermark",
+      "stock_query": "night sky glowing rings",
+      "source_citation": "Albedo and planetary illumination physics",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "And forget about stargazing or launching rockets through that orbital debris field.",
+      "flow_prompt": "Hyper-detailed 3D simulation of dense ice chunks and rocky boulders colliding within a planetary ring system, solar flare glinting off frozen water surfaces, cosmic dust clouds, no text, no watermark",
+      "stock_query": "asteroid debris orbit",
+      "source_citation": "Orbital mechanics and Kessler syndrome",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Worse yet, decaying orbits would trigger non-stop meteor storms, bombarding cities with constant shooting stars.",
+      "flow_prompt": "Dramatic night city skyline under a brilliant ringed sky with multiple bright meteors streaking across the glowing ice arcs, intense atmospheric entry fire trails, no text, no watermark",
+      "stock_query": "meteor shower city night",
+      "source_citation": "Orbital decay and atmospheric entry ablation",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "So would you trade our dark skies for an eternal cosmic light show? Let us know below!",
+      "flow_prompt": "Epic wide shot of planet Earth with majestic glittering rings glowing against a vibrant nebula background, cinematic camera sweep, breathtaking cosmic scale, no text, no watermark",
+      "stock_query": "epic planet rings nebula",
+      "source_citation": "Planetary ring lifetime estimations",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "real_camera"
+}

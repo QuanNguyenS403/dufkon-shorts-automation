@@ -1,11 +1,11 @@
 # BẢNG ĐỐI CHIẾU SẢN XUẤT & LỊCH ĐĂNG YOUTUBE SHORTS (Dufkon)
 
-- **Cập nhật lần cuối:** `2026-11-26T15:16:29.758579+07:00`
+- **Cập nhật lần cuối:** `2026-11-26T15:45:22.789059+07:00`
 - **Kênh YouTube:** `Dufkon` (`UCVEH1Fr34ceSw4FY27i656A`)
 - **Khung giờ đăng cố định:** `02:00, 19:00` hàng ngày (`2 video/ngày`, Múi giờ `+07:00`)
-- **Tổng số Job đã tạo:** `24` | **Đã Render MP4:** `24` | **Đã Upload & Lên lịch:** `24`
-- **Số video đã Công khai (Public):** `5` | **Quỹ dự trữ đã hẹn giờ:** `19 video (9.5 ngày)`
-- **Số video bỏ sót chưa lên lịch (Orphans):** `0` (Không có - 0% bỏ sót)
+- **Tổng số Job đã tạo:** `27` | **Đã Render MP4:** `26` | **Đã Upload & Lên lịch:** `26`
+- **Số video đã Công khai (Public):** `5` | **Quỹ dự trữ đã hẹn giờ:** `21 video (10.5 ngày)`
+- **Số video bỏ sót chưa lên lịch (Orphans):** `1` (batch_25_titan_methane_rain)
 
 | STT | Mã Job (`job_id`) | Video ID | Trạng thái YouTube | Lịch phát sóng (`+07:00`) | Thời lượng / Size | Views / Likes | Tiêu đề |
 | :-: | :--- | :--- | :--- | :--- | :---: | :---: | :--- |
@@ -33,3 +33,6 @@
 | 22 | `batch_20_false_vacuum_decay` | [`TNf64bODNdo`](https://www.youtube.com/shorts/TNf64bODNdo) | **SCHEDULED_ON_YOUTUBE** | `2026-12-05T19:00:00+07:00` | 32.2s / 22.19 MB | 0 views / 0 likes | The Quantum Bubble That Can Delete Reality Instantly |
 | 23 | `batch_21_supervolcano_yellowstone` | [`WDMskU04FYg`](https://www.youtube.com/shorts/WDMskU04FYg) | **SCHEDULED_ON_YOUTUBE** | `2026-12-06T02:00:00+07:00` | 31.72s / 33.12 MB | 0 views / 0 likes | What If Yellowstone Erupted Today? |
 | 24 | `batch_22_time_stops_1_minute` | [`twJxJMbkvqA`](https://www.youtube.com/shorts/twJxJMbkvqA) | **SCHEDULED_ON_YOUTUBE** | `2026-12-06T19:00:00+07:00` | 32.33s / 39.09 MB | 0 views / 0 likes | What Happens If Time Stops For Everyone But You? (Physics Explains) |
+| 25 | `batch_23_earth_rings_saturn` | [`00l3KpApDNg`](https://www.youtube.com/shorts/00l3KpApDNg) | **SCHEDULED_ON_YOUTUBE** | `2026-12-07T02:00:00+07:00` | 27.31s / 20.97 MB | 0 views / 0 likes | What If Earth Had Giant Rings Like Saturn? |
+| 26 | `batch_24_antimatter_gram` | [`pM7KyaovmZY`](https://www.youtube.com/shorts/pM7KyaovmZY) | **SCHEDULED_ON_YOUTUBE** | `2026-12-07T19:00:00+07:00` | 30.47s / 27.2 MB | 0 views / 0 likes | What If One Gram of Antimatter Dropped in Your City? |
+| 27 | `batch_25_titan_methane_rain` | ❌ Chưa upload | **ORPHAN_UNSCHEDULED** | `Chưa hẹn giờ` | Chưa render | 0 views / 0 likes | What Raining Methane Feels Like on Titan #Shorts |

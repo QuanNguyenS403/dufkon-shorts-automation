@@ -1,0 +1,85 @@
+{
+  "id": "batch_36_what_if_a_grain_of_sand_hit_",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K documentary aesthetic, deep space and atmospheric physics visualizations, dramatic contrast rim lighting, dark cosmic color palette with intense gamma-ray and plasma bursts, hyper-realistic physics simulations, no text, no watermark",
+  "title": "What If a Grain of Sand Hit Earth at Light Speed?",
+  "description": "What happens when a tiny speck of dust carries the kinetic energy of a thermonuclear warhead? Drop your theory in the comments and subscribe for more extreme physics! #Shorts #Science #Physics #Space",
+  "tags": [
+    "speed of light",
+    "grain of sand",
+    "physics",
+    "extreme science",
+    "earth destruction",
+    "kinetic energy",
+    "astrophysics",
+    "science experiments"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if a single grain of sand strikes Earth at the exact speed of light?",
+      "flow_prompt": "A microscopic single grain of sand glowing with blinding white Cherenkov radiation hurtling through the vacuum of space towards Earth, extreme macro cinematography, sharp focus, high-contrast rim lighting, no text, no watermark",
+      "stock_query": "grain of sand space",
+      "source_citation": "Special Relativity and Kinetic Energy Formula",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At light speed, mass approaches infinity, giving that tiny speck three kilotons of TNT equivalent energy.",
+      "flow_prompt": "An intense mathematical visualization of relativistic mass increase, glowing red energy equations overlaying a microscopic silicon grain disintegrating into pure photons, no text, no watermark",
+      "stock_query": "relativistic energy physics",
+      "source_citation": "Lorentz factor mass-energy equivalence",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "So it carves straight through the atmosphere like a laser beam?",
+      "flow_prompt": "A razor-thin beam of blinding blue plasma punching directly through Earth blue atmospheric layers from the thermosphere down to the crust, high-speed impact physics simulation, no text, no watermark",
+      "stock_query": "atmosphere laser impact",
+      "source_citation": "Atmospheric shockwave dynamics",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Worse. It triggers an immediate particle cascade, vaporizing bedrock and excavating a massive crater instantly.",
+      "flow_prompt": "A violent underground subterranean explosion sending massive shockwaves and molten rock bursting outward from a deep impact site, hyper-detailed crater formation, no text, no watermark",
+      "stock_query": "meteor impact explosion",
+      "source_citation": "Hypervelocity impact cratering mechanics",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "A microscopic beach pebble packs a city-destroying punch. Could humanity survive it?",
+      "flow_prompt": "A panoramic glowing impact crater smoking intensely under a dark starry night sky, cinematic wide shot, dramatic rim lighting, no text, no watermark",
+      "stock_query": "massive impact crater night",
+      "source_citation": "Global catastrophic risk analysis",
+      "transition": "dissolve",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "real_camera"
+}

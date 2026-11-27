@@ -1,10 +1,10 @@
 # BẢNG ĐỐI CHIẾU SẢN XUẤT & LỊCH ĐĂNG YOUTUBE SHORTS (Dufkon)
 
-- **Cập nhật lần cuối:** `2026-11-27T16:23:39.240028+07:00`
+- **Cập nhật lần cuối:** `2026-11-28T00:45:23.193993+07:00`
 - **Kênh YouTube:** `Dufkon` (`UCVEH1Fr34ceSw4FY27i656A`)
 - **Khung giờ đăng cố định:** `02:00, 19:00` hàng ngày (`2 video/ngày`, Múi giờ `+07:00`)
-- **Tổng số Job đã tạo:** `35` | **Đã Render MP4:** `35` | **Đã Upload & Lên lịch:** `35`
-- **Số video đã Công khai (Public):** `7` | **Quỹ dự trữ đã hẹn giờ:** `28 video (14.0 ngày)`
+- **Tổng số Job đã tạo:** `36` | **Đã Render MP4:** `36` | **Đã Upload & Lên lịch:** `36`
+- **Số video đã Công khai (Public):** `8` | **Quỹ dự trữ đã hẹn giờ:** `28 video (14.0 ngày)`
 - **Số video bỏ sót chưa lên lịch (Orphans):** `0` (Không có - 0% bỏ sót)
 
 | STT | Mã Job (`job_id`) | Video ID | Trạng thái YouTube | Lịch phát sóng (`+07:00`) | Thời lượng / Size | Views / Likes | Tiêu đề |
@@ -15,8 +15,8 @@
 | 4 | `batch_02_stop_sleeping` | [`jVqiVT4H49k`](https://www.youtube.com/shorts/jVqiVT4H49k) | **PUBLIC_LIVE** | `2026-11-25T19:00:00+07:00` | 34.26s / 75.01 MB | 0 views / 0 likes | What Happens If You Don't Sleep for 11 Days? |
 | 5 | `batch_09_lightning_strike` | [`ViiwCQhNU4I`](https://www.youtube.com/shorts/ViiwCQhNU4I) | **PUBLIC_LIVE** | `2026-11-26T02:00:00+07:00` | 29.22s / 23.53 MB | 17 views / 0 likes | What Actually Happens When Lightning Strikes An Airplane? (Faraday Shi |
 | 6 | `batch_03_earth_stops_spinning` | [`tkOHse5M3xM`](https://www.youtube.com/shorts/tkOHse5M3xM) | **PUBLIC_LIVE** | `2026-11-26T19:00:00+07:00` | 31.94s / 73.36 MB | 178 views / 0 likes | What If Earth Stopped Spinning for 1 Second? |
-| 7 | `batch_10_magnetar_burst` | [`SJDGoICO76o`](https://www.youtube.com/shorts/SJDGoICO76o) | **PUBLIC_LIVE** | `2026-11-27T02:00:00+07:00` | 29.17s / 53.85 MB | 51 views / 0 likes | The Deadliest Star In The Universe: What A Magnetar Would Do To Earth? |
-| 8 | `batch_04_sun_goes_dark` | [`8aaZnVgNDE8`](https://www.youtube.com/shorts/8aaZnVgNDE8) | **SCHEDULED_ON_YOUTUBE** | `2026-11-27T19:00:00+07:00` | 29.35s / 61.49 MB | 0 views / 0 likes | What If The Sun Just Turned Off For 24 Hours? |
+| 7 | `batch_10_magnetar_burst` | [`SJDGoICO76o`](https://www.youtube.com/shorts/SJDGoICO76o) | **PUBLIC_LIVE** | `2026-11-27T02:00:00+07:00` | 29.17s / 53.85 MB | 52 views / 0 likes | The Deadliest Star In The Universe: What A Magnetar Would Do To Earth? |
+| 8 | `batch_04_sun_goes_dark` | [`8aaZnVgNDE8`](https://www.youtube.com/shorts/8aaZnVgNDE8) | **PUBLIC_LIVE** | `2026-11-27T19:00:00+07:00` | 29.35s / 61.49 MB | 81 views / 0 likes | What If The Sun Just Turned Off For 24 Hours? |
 | 9 | `batch_11_oxygen_vanish` | [`84La9xrDpdY`](https://www.youtube.com/shorts/84La9xrDpdY) | **SCHEDULED_ON_YOUTUBE** | `2026-11-28T02:00:00+07:00` | 30.97s / 28.4 MB | 0 views / 0 likes | What If All Oxygen Disappeared For Just 5 Seconds? (Concrete Collapse  |
 | 10 | `batch_05_black_hole_fall` | [`oQ3hyk5x4wU`](https://www.youtube.com/shorts/oQ3hyk5x4wU) | **SCHEDULED_ON_YOUTUBE** | `2026-11-28T19:00:00+07:00` | 31.47s / 45.02 MB | 0 views / 0 likes | What Happens If You Fall Into a Black Hole? #Shorts |
 | 11 | `batch_12_earth_core_cools` | [`rythM03i7ns`](https://www.youtube.com/shorts/rythM03i7ns) | **SCHEDULED_ON_YOUTUBE** | `2026-11-29T02:00:00+07:00` | 30.1s / 24.5 MB | 0 views / 0 likes | What If The Earth's Core Suddenly Froze Solid? (Loss of Magnetic Shiel |
@@ -26,8 +26,8 @@
 | 15 | `batch_14_jupiter_swallows_earth` | [`pssnsDhAaI0`](https://www.youtube.com/shorts/pssnsDhAaI0) | **SCHEDULED_ON_YOUTUBE** | `2026-12-01T02:00:00+07:00` | 31.1s / 28.29 MB | 0 views / 0 likes | What Would You See If You Fell Inside Jupiter's Atmosphere? (Metallic  |
 | 16 | `batch_08_rogue_planet` | [`OL_neHGj6nQ`](https://www.youtube.com/shorts/OL_neHGj6nQ) | **SCHEDULED_ON_YOUTUBE** | `2026-12-01T19:00:00+07:00` | 29.43s / 32.31 MB | 0 views / 0 likes | What If A Rogue Planet Entered Our Solar System? (Gravitational Catast |
 | 17 | `batch_15_sun_becomes_black_hole` | [`dGJyI4AWhgk`](https://www.youtube.com/shorts/dGJyI4AWhgk) | **SCHEDULED_ON_YOUTUBE** | `2026-12-02T02:00:00+07:00` | 31.52s / 27.54 MB | 0 views / 0 likes | What Happens If You Fall Into a Black Hole? #Shorts |
-| 18 | `batch_16_ocean_drains_mariana` | [`qL4nBbT4iTs`](https://www.youtube.com/shorts/qL4nBbT4iTs) | **SCHEDULED_ON_YOUTUBE** | `2026-12-03T19:00:00+07:00` | 29.27s / 27.75 MB | 0 views / 0 likes | What If A 10-Meter Drain Opened At The Bottom Of The Mariana Trench? # |
-| 19 | `batch_17_gamma_ray_burst` | [`yYs2sREt-W0`](https://www.youtube.com/shorts/yYs2sREt-W0) | **SCHEDULED_ON_YOUTUBE** | `2026-12-04T02:00:00+07:00` | 29.33s / 23.21 MB | 0 views / 0 likes | What If A Gamma-Ray Burst Hit Earth From 1,000 Light-Years Away? #Shor |
+| 18 | `batch_16_ocean_drains_mariana` | [`qL4nBbT4iTs`](https://www.youtube.com/shorts/qL4nBbT4iTs) | **SCHEDULED_ON_YOUTUBE** | `2026-12-03T19:00:00+07:00` | 29.43s / 34.3 MB | 0 views / 0 likes | What If A 10-Meter Drain Opened At The Bottom Of The Mariana Trench? # |
+| 19 | `batch_17_gamma_ray_burst` | [`yYs2sREt-W0`](https://www.youtube.com/shorts/yYs2sREt-W0) | **SCHEDULED_ON_YOUTUBE** | `2026-12-04T02:00:00+07:00` | 29.66s / 23.39 MB | 0 views / 0 likes | What If A Gamma-Ray Burst Hit Earth From 1,000 Light-Years Away? #Shor |
 | 20 | `batch_18_gravity_doubles` | [`E1PLlGkpAUI`](https://www.youtube.com/shorts/E1PLlGkpAUI) | **SCHEDULED_ON_YOUTUBE** | `2026-12-04T19:00:00+07:00` | 31.0s / 24.7 MB | 0 views / 0 likes | What If Earth's Gravity Suddenly Doubled Right Now? (Structural & Huma |
 | 21 | `batch_19_venus_terraforming` | [`T5d7QMiqMqc`](https://www.youtube.com/shorts/T5d7QMiqMqc) | **SCHEDULED_ON_YOUTUBE** | `2026-12-05T02:00:00+07:00` | 36.67s / 35.36 MB | 0 views / 0 likes | What Happens on Venus Without a Spacesuit? 🌋 |
 | 22 | `batch_20_false_vacuum_decay` | [`TNf64bODNdo`](https://www.youtube.com/shorts/TNf64bODNdo) | **SCHEDULED_ON_YOUTUBE** | `2026-12-05T19:00:00+07:00` | 32.2s / 22.19 MB | 0 views / 0 likes | The Quantum Bubble That Can Delete Reality Instantly |
@@ -44,3 +44,4 @@
 | 33 | `batch_31_what_if_a_single_needle_hit_` | [`vPxTZONEWqI`](https://www.youtube.com/shorts/vPxTZONEWqI) | **SCHEDULED_ON_YOUTUBE** | `2026-12-11T19:00:00+07:00` | 34.16s / 28.64 MB | 0 views / 0 likes | What If A Needle Hit Earth At Light Speed? |
 | 34 | `batch_32_what_if_a_single_needle_hit_` | [`32oyM8eII54`](https://www.youtube.com/shorts/32oyM8eII54) | **SCHEDULED_ON_YOUTUBE** | `2026-12-12T02:00:00+07:00` | 29.96s / 34.31 MB | 0 views / 0 likes | What If a Needle Hit Earth at Light Speed? |
 | 35 | `batch_33_what_if_a_needle_hit_earth_a` | [`G4KtQb-wqJU`](https://www.youtube.com/shorts/G4KtQb-wqJU) | **SCHEDULED_ON_YOUTUBE** | `2026-12-12T19:00:00+07:00` | 34.28s / 20.66 MB | 0 views / 0 likes | What If A Needle Hit Earth At 99.99% The Speed Of Light? |
+| 36 | `batch_36_what_if_a_grain_of_sand_hit_` | [`PPFngkiY_YA`](https://www.youtube.com/shorts/PPFngkiY_YA) | **SCHEDULED_ON_YOUTUBE** | `2026-12-13T02:00:00+07:00` | 28.55s / 41.61 MB | 0 views / 0 likes | What If a Grain of Sand Hit Earth at Light Speed? |

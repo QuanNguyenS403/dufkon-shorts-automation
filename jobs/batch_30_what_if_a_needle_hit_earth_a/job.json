@@ -1,0 +1,85 @@
+{
+  "id": "batch_30_what_if_a_needle_hit_earth_a",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic dark sci-fi aesthetic, deep space black and high-contrast neon cyan and amber rim lighting, hyper-realistic 8k textures, photorealistic physics simulations, volumetric lighting, no text, no watermark",
+  "title": "What If A Needle Hit Earth At Light Speed?",
+  "description": "What would survive if a relativistic needle vaporized half the planet? Drop your survival theories in the comments below! #Shorts #Physics #Science #ExtremeScience #Space",
+  "tags": [
+    "speed of light",
+    "physics",
+    "relativistic projectile",
+    "Earth destruction",
+    "extreme science",
+    "kinetic energy",
+    "science experiments",
+    "cosmos"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if a microscopic sewing needle strikes Earth at ninety-nine point nine percent the speed of light?",
+      "flow_prompt": "An extreme close-up of a steel sewing needle glowing with intense white-hot plasma energy hurtling through the vacuum of deep space towards a vibrant blue planet, cinematic lighting, photorealistic 8k, no text, no watermark",
+      "stock_query": "asteroid impact space",
+      "source_citation": "Special Relativity and Relativistic Kinetic Energy Formula",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At that velocity, its Lorentz factor skyrockets, packing the kinetic energy of a multi-megaton thermonuclear warhead into an object weighing less than a gram.",
+      "flow_prompt": "A microscopic view of molecular bonds instantly disintegrating under extreme relativistic pressure, vibrant orange and cyan energy shockwaves, photorealistic 3D simulation, no text, no watermark",
+      "stock_query": "molecular explosion science",
+      "source_citation": "Lorentz Factor and Relativistic Mass Increase",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "So it punches straight through the atmosphere without even slowing down?",
+      "flow_prompt": "Earth atmosphere glowing brightly as a hyper-velocity projectile pierces the stratosphere, creating a brilliant pillar of blue plasma fire, dramatic cinematic angle, no text, no watermark",
+      "stock_query": "atmosphere entry meteor",
+      "source_citation": "Atmospheric Compression Dynamics",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Worse than that. The air in front of it fuses instantly, creating a catastrophic plasma fireball that vaporizes everything within a fifty mile radius.",
+      "flow_prompt": "A massive hemisphere of blinding nuclear fire erupting on Earth's surface, massive shockwaves rippling across continents from space, hyper-detailed particle effects, no text, no watermark",
+      "stock_query": "nuclear blast shockwave",
+      "source_citation": "Nuclear Fusion via Compression Shockfront",
+      "transition": "wipeup",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "The needle passes clean through the planet, leaving Earth fractured. Would you survive the aftershocks? Tell us below.",
+      "flow_prompt": "Planet Earth showing a glowing molten exit wound on the opposite side, crust fracturing into fiery tectonic plates, epic space view, cinematic lighting, no text, no watermark",
+      "stock_query": "cracked planet space",
+      "source_citation": "Conservation of Momentum at Relativistic Speeds",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "mixed_real_first"
+}

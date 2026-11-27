@@ -1,0 +1,85 @@
+{
+  "id": "batch_29_what_if_a_needle_hit_earth_a",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic dark sci-fi lab setting with neon blue and amber rim lighting, highly detailed volumetric smoke, photorealistic textures",
+  "title": "What If A Needle Hit Earth At Light Speed?",
+  "description": "Dropping a single sewing needle into Earth's atmosphere at 99.999999% the speed of light releases unimaginable kinetic energy. Would it wipe out humanity instantly or just punch a hole right through the planet? Drop your theory in the comments. #Shorts #Physics #Science",
+  "tags": [
+    "speed of light",
+    "physics",
+    "science",
+    "earth",
+    "extreme science",
+    "space",
+    "relativistic kinetic energy",
+    "universe"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if a tiny steel sewing needle strikes Earth at 99.999999% the speed of light?",
+      "flow_prompt": "Ultra close up of a glowing steel needle plunging through Earth upper atmosphere creating a blinding plasma wake, photorealistic 3D render, dramatic rim lighting, no text, no watermark",
+      "stock_query": "needle atmosphere re-entry plasma",
+      "source_citation": "Special Relativity Kinetic Energy Formula",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At that velocity, its Lorentz factor skyrockets, packing the kinetic energy of a multi-megaton thermonuclear warhead into an object weighing less than a gram.",
+      "flow_prompt": "Extreme close up of relativistic kinetic energy formula glowing in space next to a distorted space-time grid, high contrast, cinematic lighting, no text, no watermark",
+      "stock_query": "relativistic physics equation space",
+      "source_citation": "Lorentz Factor Gamma Equation",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Does it gently pierce the crust and exit the other side, or does it trigger an apocalyptic catastrophe?",
+      "flow_prompt": "Cinematic view of Earth from low orbit with a hyper-fast bright beam piercing through the continents, glowing debris field, photorealistic, no text, no watermark",
+      "stock_query": "earth orbit space view",
+      "source_citation": "Atmospheric Particle Interaction Physics",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Neither. Air molecules cannot get out of the way fast enough. The needle instantly fuses with nitrogen and oxygen, creating a catastrophic thermonuclear fireball.",
+      "flow_prompt": "Macro view of air molecules violently colliding with a relativistic projectile, massive shockwave explosion, atomic scale detail, vibrant colors, no text, no watermark",
+      "stock_query": "atomic explosion shockwave macro",
+      "source_citation": "Nuclear Fusion Cross Section at Relativistic Speeds",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "The resulting blast vaporizes an entire continent in microseconds. Would you survive? Let us know below.",
+      "flow_prompt": "Wide angle cinematic shot of North America instantly engulfed in a blinding white-hot plasma shockwave, dark space backdrop, hyper-detailed, no text, no watermark",
+      "stock_query": "continent explosion earth from space",
+      "source_citation": "TNT Equivalent of Relativistic Mass-Energy Conversion",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "real_camera"
+}

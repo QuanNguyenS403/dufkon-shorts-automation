@@ -1,0 +1,60 @@
+{
+  "job_id": "batch_29_what_if_a_needle_hit_earth_a",
+  "assets": [
+    {
+      "scene_index": 1,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/image/jsc2023e046372/jsc2023e046372~orig.jpg",
+      "matched_query": "needle atmosphere",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "e103b241f27c67277adbe849ca62fa3154e9caa9b01780ac72d009d0db9c36b7",
+      "local_path": "clips/scene_01.jpg",
+      "fetched_at": "2026-11-27T01:01:58.227966+00:00"
+    },
+    {
+      "scene_index": 2,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/image/KSC-2012-2674/KSC-2012-2674~orig.jpg",
+      "matched_query": "relativistic physics",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "1626e8028c263d4aa6d576e1d6050bd02eb4e53742e64ab2e2fc0131c5d9f94b",
+      "local_path": "clips/scene_02.jpg",
+      "fetched_at": "2026-11-27T01:01:59.275111+00:00"
+    },
+    {
+      "scene_index": 3,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/video/art002m1200920156_ICPS-Separation_2/art002m1200920156_ICPS-Separation_2~small.mp4",
+      "matched_query": "earth orbit space view",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "504a717b1e6c49380e0f1be2f3bb8eb2563f6f991f78438b3aeb0bf0c48dbc70",
+      "local_path": "clips/scene_03.mp4",
+      "fetched_at": "2026-11-27T01:01:59.918035+00:00"
+    },
+    {
+      "scene_index": 4,
+      "source_provider": "nasa",
+      "source_url": "http://images-assets.nasa.gov/video/GSFC_20100126_Nova_m10547_SuperNova/GSFC_20100126_Nova_m10547_SuperNova~small.mp4",
+      "matched_query": "atomic explosion",
+      "license_name": "NASA Public Domain (No Copyright)",
+      "commercial_allowed": true,
+      "checksum_sha256": "746f3fcb1df1958ddc4d5b54b772d166af302f8d39b1e207ceae5762a50308a5",
+      "local_path": "clips/scene_04.mp4",
+      "fetched_at": "2026-11-27T01:02:01.100299+00:00"
+    },
+    {
+      "scene_index": 5,
+      "source_provider": "wikimedia",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Our_greater_country%3B_being_a_standard_history_of_the_United_States_from_the_discovery_of_the_American_continent_to_the_present_time_%281901%29_%2814598306779%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "matched_query": "continent explosion",
+      "license_name": "Wikimedia Commons (Check Attribution)",
+      "commercial_allowed": true,
+      "checksum_sha256": "a1f598435025aeb65218fc26593cbb47c092e36bdc2cb313d22b761453f1ad6a",
+      "local_path": "clips/scene_05.jpg",
+      "fetched_at": "2026-11-27T01:02:02.740390+00:00"
+    }
+  ]
+}

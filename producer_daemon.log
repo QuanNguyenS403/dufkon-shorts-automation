@@ -83,3 +83,10 @@
 [2026-11-26 16:50:37] ❌ Error producing batch_28_what_if_humans_had_biologica: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 [2026-11-26 16:51:05] ❌ Error producing batch_28_what_if_humans_had_biologica: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
 [2026-11-26 16:51:29] ❌ Error producing batch_28_what_if_humans_had_biologica: <HttpError 400 when requesting None returned "The user has exceeded the number of videos they may upload.". Details: "[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]">
+[2026-11-27 00:55:48] 📊 [STATUS] Current Buffer: 20/28 scheduled Shorts (2 slots/day: 02:00, 19:00 | Latest: 2026-12-08T02:00:00+07:00).
+[2026-11-27 00:55:48] 🚀 Buffer deficit: 8 slot(s). Producing & immediately scheduling 3 new Short(s) in this cycle...
+[2026-11-27 00:58:06] ✅ Scheduled batch_28_what_if_humans_had_biologica -> Video ID: ARcFl_23_Kc
+[2026-11-27 00:58:06] ⏳ Cooling down for 120s per YouTube API rate limit...
+[2026-11-27 01:05:06] ✅ Scheduled batch_29_what_if_a_needle_hit_earth_a -> Video ID: IAe4BF9P0jk
+[2026-11-27 01:05:06] ⏳ Cooling down for 120s per YouTube API rate limit...
+[2026-11-27 01:11:07] ✅ Scheduled batch_30_what_if_a_needle_hit_earth_a -> Video ID: 6386ZQiVYHo

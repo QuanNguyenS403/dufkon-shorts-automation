@@ -9,8 +9,8 @@
       "license_name": "NASA Public Domain (No Copyright)",
       "commercial_allowed": true,
       "checksum_sha256": "c30c54b184be918dacb89c3a215cc2db4be27ab29a5d65ab01df3142c0934c4b",
-      "local_path": "clips\\scene_01.jpg",
-      "fetched_at": "2026-11-26T09:43:23.648218+00:00"
+      "local_path": "clips/scene_01.jpg",
+      "fetched_at": "2026-11-27T00:55:52.107068+00:00"
     },
     {
       "scene_index": 2,
@@ -20,8 +20,8 @@
       "license_name": "Wikimedia Commons (Check Attribution)",
       "commercial_allowed": true,
       "checksum_sha256": "b037f7a8cd95700ed1022abb1b145dfaa7414dac59a90660d14325ff6f0deca3",
-      "local_path": "clips\\scene_02.png",
-      "fetched_at": "2026-11-26T09:43:34.112345+00:00"
+      "local_path": "clips/scene_02.png",
+      "fetched_at": "2026-11-27T00:55:54.044741+00:00"
     },
     {
       "scene_index": 3,
@@ -31,8 +31,8 @@
       "license_name": "Wikimedia Commons (Check Attribution)",
       "commercial_allowed": true,
       "checksum_sha256": "e8c38dfab093f31a620cb18ec5603d2994e3b97c93ed2be87f9767a0c4ca6163",
-      "local_path": "clips\\scene_03.png",
-      "fetched_at": "2026-11-26T09:43:39.382130+00:00"
+      "local_path": "clips/scene_03.png",
+      "fetched_at": "2026-11-27T00:55:54.570429+00:00"
     },
     {
       "scene_index": 4,
@@ -42,8 +42,8 @@
       "license_name": "NASA Public Domain (No Copyright)",
       "commercial_allowed": true,
       "checksum_sha256": "090776e02023be152f20df312dfb2ac94a76c73ba3fc7250f47344cc4ac55959",
-      "local_path": "clips\\scene_04.mp4",
-      "fetched_at": "2026-11-26T09:43:54.531277+00:00"
+      "local_path": "clips/scene_04.mp4",
+      "fetched_at": "2026-11-27T00:55:55.908027+00:00"
     },
     {
       "scene_index": 5,
@@ -53,8 +53,8 @@
       "license_name": "NASA Public Domain (No Copyright)",
       "commercial_allowed": true,
       "checksum_sha256": "57b8d51708262d5916afb7faafe1a5e9344db55ea3193d6452810123c181ba7c",
-      "local_path": "clips\\scene_05.jpg",
-      "fetched_at": "2026-11-26T09:44:09.447040+00:00"
+      "local_path": "clips/scene_05.jpg",
+      "fetched_at": "2026-11-27T00:55:56.867323+00:00"
     }
   ]
 }

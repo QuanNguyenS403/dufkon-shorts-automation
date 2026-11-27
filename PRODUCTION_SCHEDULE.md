@@ -1,10 +1,10 @@
 # BẢNG ĐỐI CHIẾU SẢN XUẤT & LỊCH ĐĂNG YOUTUBE SHORTS (Dufkon)
 
-- **Cập nhật lần cuối:** `2026-11-27T10:05:34.780280+07:00`
+- **Cập nhật lần cuối:** `2026-11-27T16:23:39.240028+07:00`
 - **Kênh YouTube:** `Dufkon` (`UCVEH1Fr34ceSw4FY27i656A`)
 - **Khung giờ đăng cố định:** `02:00, 19:00` hàng ngày (`2 video/ngày`, Múi giờ `+07:00`)
-- **Tổng số Job đã tạo:** `33` | **Đã Render MP4:** `33` | **Đã Upload & Lên lịch:** `33`
-- **Số video đã Công khai (Public):** `7` | **Quỹ dự trữ đã hẹn giờ:** `26 video (13.0 ngày)`
+- **Tổng số Job đã tạo:** `35` | **Đã Render MP4:** `35` | **Đã Upload & Lên lịch:** `35`
+- **Số video đã Công khai (Public):** `7` | **Quỹ dự trữ đã hẹn giờ:** `28 video (14.0 ngày)`
 - **Số video bỏ sót chưa lên lịch (Orphans):** `0` (Không có - 0% bỏ sót)
 
 | STT | Mã Job (`job_id`) | Video ID | Trạng thái YouTube | Lịch phát sóng (`+07:00`) | Thời lượng / Size | Views / Likes | Tiêu đề |
@@ -13,9 +13,9 @@
 | 2 | `pilot_01_zero_gravity` | [`-HDcafQhDxY`](https://www.youtube.com/shorts/-HDcafQhDxY) | **PUBLIC_LIVE** | `2026-11-24T00:22:59 (Đăng ngay)` | 32.4s / 40.09 MB | 23 views / 1 likes | What Happens to Your Brain in 60 Seconds of Zero Gravity? 🧠 |
 | 3 | `batch_01_deepest_ocean` | [`1T7rliOWtgA`](https://www.youtube.com/shorts/1T7rliOWtgA) | **PUBLIC_LIVE** | `2026-11-24T19:00:00+07:00` | 31.83s / 94.44 MB | 38 views / 1 likes | What Happens to Your Body in the Mariana Trench? |
 | 4 | `batch_02_stop_sleeping` | [`jVqiVT4H49k`](https://www.youtube.com/shorts/jVqiVT4H49k) | **PUBLIC_LIVE** | `2026-11-25T19:00:00+07:00` | 34.26s / 75.01 MB | 0 views / 0 likes | What Happens If You Don't Sleep for 11 Days? |
-| 5 | `batch_09_lightning_strike` | [`ViiwCQhNU4I`](https://www.youtube.com/shorts/ViiwCQhNU4I) | **PUBLIC_LIVE** | `2026-11-26T02:00:00+07:00` | 29.22s / 23.53 MB | 14 views / 0 likes | What Actually Happens When Lightning Strikes An Airplane? (Faraday Shi |
+| 5 | `batch_09_lightning_strike` | [`ViiwCQhNU4I`](https://www.youtube.com/shorts/ViiwCQhNU4I) | **PUBLIC_LIVE** | `2026-11-26T02:00:00+07:00` | 29.22s / 23.53 MB | 17 views / 0 likes | What Actually Happens When Lightning Strikes An Airplane? (Faraday Shi |
 | 6 | `batch_03_earth_stops_spinning` | [`tkOHse5M3xM`](https://www.youtube.com/shorts/tkOHse5M3xM) | **PUBLIC_LIVE** | `2026-11-26T19:00:00+07:00` | 31.94s / 73.36 MB | 178 views / 0 likes | What If Earth Stopped Spinning for 1 Second? |
-| 7 | `batch_10_magnetar_burst` | [`SJDGoICO76o`](https://www.youtube.com/shorts/SJDGoICO76o) | **PUBLIC_LIVE** | `2026-11-27T02:00:00+07:00` | 29.17s / 53.85 MB | 35 views / 0 likes | The Deadliest Star In The Universe: What A Magnetar Would Do To Earth? |
+| 7 | `batch_10_magnetar_burst` | [`SJDGoICO76o`](https://www.youtube.com/shorts/SJDGoICO76o) | **PUBLIC_LIVE** | `2026-11-27T02:00:00+07:00` | 29.17s / 53.85 MB | 51 views / 0 likes | The Deadliest Star In The Universe: What A Magnetar Would Do To Earth? |
 | 8 | `batch_04_sun_goes_dark` | [`8aaZnVgNDE8`](https://www.youtube.com/shorts/8aaZnVgNDE8) | **SCHEDULED_ON_YOUTUBE** | `2026-11-27T19:00:00+07:00` | 29.35s / 61.49 MB | 0 views / 0 likes | What If The Sun Just Turned Off For 24 Hours? |
 | 9 | `batch_11_oxygen_vanish` | [`84La9xrDpdY`](https://www.youtube.com/shorts/84La9xrDpdY) | **SCHEDULED_ON_YOUTUBE** | `2026-11-28T02:00:00+07:00` | 30.97s / 28.4 MB | 0 views / 0 likes | What If All Oxygen Disappeared For Just 5 Seconds? (Concrete Collapse  |
 | 10 | `batch_05_black_hole_fall` | [`oQ3hyk5x4wU`](https://www.youtube.com/shorts/oQ3hyk5x4wU) | **SCHEDULED_ON_YOUTUBE** | `2026-11-28T19:00:00+07:00` | 31.47s / 45.02 MB | 0 views / 0 likes | What Happens If You Fall Into a Black Hole? #Shorts |
@@ -39,6 +39,8 @@
 | 28 | `batch_28_what_if_humans_had_biologica` | [`FXVGcUNLv5g`](https://www.youtube.com/shorts/FXVGcUNLv5g) | **SCHEDULED_ON_YOUTUBE** | `2026-12-08T19:00:00+07:00` | 29.48s / 38.21 MB | 0 views / 0 likes | What If You Could See Through Walls With Sound? |
 | 29 | `batch_29_what_if_earth_had_rings_like` | [`a-eAlrwfiVc`](https://www.youtube.com/shorts/a-eAlrwfiVc) | **SCHEDULED_ON_YOUTUBE** | `2026-12-09T02:00:00+07:00` | 31.47s / 25.55 MB | 0 views / 0 likes | What If Earth Had Rings Like Saturn? |
 | 30 | `batch_30_what_if_the_speed_of_light_w` | [`Iu_n1XJQXTE`](https://www.youtube.com/shorts/Iu_n1XJQXTE) | **SCHEDULED_ON_YOUTUBE** | `2026-12-09T19:00:00+07:00` | 23.92s / 27.2 MB | 0 views / 0 likes | What If Light Moved at the Speed of Sound? |
-| 31 | `batch_31_what_if_a_single_needle_hit_` | [`vPxTZONEWqI`](https://www.youtube.com/shorts/vPxTZONEWqI) | **SCHEDULED_ON_YOUTUBE** | `2026-12-11T19:00:00+07:00` | 34.16s / 28.64 MB | 0 views / 0 likes | What If A Needle Hit Earth At Light Speed? |
-| 32 | `batch_32_what_if_a_single_needle_hit_` | [`32oyM8eII54`](https://www.youtube.com/shorts/32oyM8eII54) | **SCHEDULED_ON_YOUTUBE** | `2026-12-12T02:00:00+07:00` | 29.96s / 34.31 MB | 0 views / 0 likes | What If a Needle Hit Earth at Light Speed? |
-| 33 | `batch_33_what_if_a_needle_hit_earth_a` | [`G4KtQb-wqJU`](https://www.youtube.com/shorts/G4KtQb-wqJU) | **SCHEDULED_ON_YOUTUBE** | `2026-12-12T19:00:00+07:00` | 34.28s / 20.66 MB | 0 views / 0 likes | What If A Needle Hit Earth At 99.99% The Speed Of Light? |
+| 31 | `batch_29_what_if_a_needle_hit_earth_a` | [`IAe4BF9P0jk`](https://www.youtube.com/shorts/IAe4BF9P0jk) | **SCHEDULED_ON_YOUTUBE** | `2026-12-10T19:00:00+07:00` | 43.13s / 36.13 MB | 0 views / 0 likes | What If A Needle Hit Earth At Light Speed? |
+| 32 | `batch_30_what_if_a_needle_hit_earth_a` | [`6386ZQiVYHo`](https://www.youtube.com/shorts/6386ZQiVYHo) | **SCHEDULED_ON_YOUTUBE** | `2026-12-11T02:00:00+07:00` | 37.07s / 30.73 MB | 0 views / 0 likes | What If A Needle Hit Earth At Light Speed? |
+| 33 | `batch_31_what_if_a_single_needle_hit_` | [`vPxTZONEWqI`](https://www.youtube.com/shorts/vPxTZONEWqI) | **SCHEDULED_ON_YOUTUBE** | `2026-12-11T19:00:00+07:00` | 34.16s / 28.64 MB | 0 views / 0 likes | What If A Needle Hit Earth At Light Speed? |
+| 34 | `batch_32_what_if_a_single_needle_hit_` | [`32oyM8eII54`](https://www.youtube.com/shorts/32oyM8eII54) | **SCHEDULED_ON_YOUTUBE** | `2026-12-12T02:00:00+07:00` | 29.96s / 34.31 MB | 0 views / 0 likes | What If a Needle Hit Earth at Light Speed? |
+| 35 | `batch_33_what_if_a_needle_hit_earth_a` | [`G4KtQb-wqJU`](https://www.youtube.com/shorts/G4KtQb-wqJU) | **SCHEDULED_ON_YOUTUBE** | `2026-12-12T19:00:00+07:00` | 34.28s / 20.66 MB | 0 views / 0 likes | What If A Needle Hit Earth At 99.99% The Speed Of Light? |

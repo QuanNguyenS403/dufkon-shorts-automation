@@ -1,0 +1,85 @@
+{
+  "id": "batch_29_what_if_earth_had_rings_like",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Photorealistic 8K cinematic rendering of astronomical phenomena, deep cosmic black background, vibrant planetary hues, high-contrast ethereal rim lighting, dramatic volumetric shadows, sharp focus, vibrant color grading matching Saturnian golden ice tones, no text, no watermark",
+  "title": "What If Earth Had Rings Like Saturn?",
+  "description": "What would Earth look like with massive glowing ice rings overhead? Drop your thoughts in the comments below! #EarthRings #Astronomy #Science #Shorts #Space",
+  "tags": [
+    "Earth rings",
+    "Saturn rings",
+    "Astronomy facts",
+    "Space science",
+    "Extreme Earth",
+    "Cosmic simulation",
+    "Planetary rings",
+    "Science shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What if Earth woke up tomorrow with glowing rings exactly like Saturn?",
+      "flow_prompt": "Photorealistic cinematic view of Earth from low Earth orbit featuring bright icy planetary rings cutting sharply across the starry void, illuminated by intense golden sunlight, no text, no watermark",
+      "stock_query": "Earth from space rings",
+      "source_citation": "Roche Limit orbital mechanics and planetary ring formation physics",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "We would lose night entirely. The rings would reflect up to thirty times more moonlight than usual.",
+      "flow_prompt": "Cinematic night side of Earth glowing intensely from the massive ice ring system reflecting bright moonlight down onto continental landmasses, vibrant atmospheric scattering, no text, no watermark",
+      "stock_query": "night earth glowing",
+      "source_citation": "Albedo calculations of water ice particle ring reflectance",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Wait, wouldn't those massive rings block out the sun and plunge cities into perpetual winter?",
+      "flow_prompt": "Detailed dramatic close-up of icy ring particles casting deep moving shadows across the North American continent, cinematic lighting, ultra-detailed space view, no text, no watermark",
+      "stock_query": "planet shadow rings",
+      "source_citation": "Solar irradiance reduction models for equatorial latitudes",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Only near the poles. But equatorial regions would face constant meteor showers as micrometeoroids destabilize the ring system.",
+      "flow_prompt": "Hyper-realistic simulation of countless icy ring fragments burning brightly as shooting stars entering Earth's upper atmosphere, vibrant glowing plasma trails, no text, no watermark",
+      "stock_query": "meteor shower atmosphere",
+      "source_citation": "Orbital decay rates and Poynting-Robertson effect on ring dust",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Enjoy them while they last. Gravity will pull every single ice chunk down within one hundred million years.",
+      "flow_prompt": "Cinematic sci-fi visualization of Saturn-like ice rings raining down into Earth's atmosphere as glowing streaks of light, dramatic cosmic finale, no text, no watermark",
+      "stock_query": "planetary rings decay",
+      "source_citation": "NASA ring lifespan estimates and gravitational infall projections",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "natural_studio"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "batch_30_what_if_the_speed_of_light_w",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K documentary style, hyper-detailed photorealism, high contrast rim lighting, dramatic volumetric fog, deep space blue and warning amber color palette, no text, no watermark",
+  "title": "What If Light Moved at the Speed of Sound?",
+  "description": "Imagine stepping outside and waiting days just to see a lightning flash. What would happen to our universe if light crawled at 343 meters per second? Drop your theory in the comments! #Shorts #Physics #Science",
+  "tags": [
+    "physics",
+    "speed of light",
+    "speed of sound",
+    "science experiment",
+    "quantum mechanics",
+    "astronomy",
+    "mind blowing facts",
+    "Shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What if light crawled at the speed of sound? Your whole world breaks instantly.",
+      "flow_prompt": "A blinding flash of lightning moving in slow motion across a dark night sky, sharp focus, cinematic lighting, no text, no watermark",
+      "stock_query": "lightning slow motion",
+      "source_citation": "Special Relativity and Acoustic Velocity Limits",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "You would hear a thunderclap before you ever saw the lightning strike the ground.",
+      "flow_prompt": "A massive acoustic shockwave tearing through the atmosphere, visible sound pressure rings, high contrast rim lighting, no text, no watermark",
+      "stock_query": "shockwave explosion VFX",
+      "source_citation": "Acoustic Wave Propagation Mechanics",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "And looking at the night sky? Stars would completely vanish from your view.",
+      "flow_prompt": "Stargazing night sky with stars suddenly blinking out and distorting due to extreme relativistic time delay, cinematic, no text, no watermark",
+      "stock_query": "night sky stars cosmos",
+      "source_citation": "Stellar Aberration and Photon Transit Time",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Because light takes hours just to cross a room, everyday vision becomes a smeared blur.",
+      "flow_prompt": "Light trails streaming slowly through a dark room like thick glowing molasses, ultra-detailed photorealism, no text, no watermark",
+      "stock_query": "light painting motion blur",
+      "source_citation": "Optics and Retinal Persistence Thresholds",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Reality literally shatters into sonic booms. Would you survive this delayed universe?",
+      "flow_prompt": "Earth cracking open with intense glowing energy beams erupting from the crust, cinematic apocalypse, no text, no watermark",
+      "stock_query": "planet destruction sci fi",
+      "source_citation": "Electromagnetic and Acoustic Coupling Laws",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "real_camera"
+}

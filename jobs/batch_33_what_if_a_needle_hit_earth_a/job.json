@@ -1,0 +1,84 @@
+{
+  "id": "batch_33_what_if_a_needle_hit_earth_a",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic dark moody laboratory setting, neon blue and deep amber rim lighting, ultra-realistic 8k textures, photorealistic scientific simulation aesthetic.",
+  "title": "What If A Needle Hit Earth At 99.99% The Speed Of Light?",
+  "description": "Drop a sewing needle into Earth's atmosphere at near-light speed, and continents vanish in a flash of antimatter-level devastation. What is your favorite theoretical apocalypse scenario? Let us know in the comments! #Shorts #Physics #Science",
+  "tags": [
+    "speed of light",
+    "relativistic kinetic energy",
+    "physics simulation",
+    "extreme science",
+    "Earth destruction",
+    "speed of light impact",
+    "science shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if a tiny sewing needle strikes Earth at ninety-nine point ninety-nine percent light speed?",
+      "flow_prompt": "A microscopic steel needle glowing white-hot with relativistic Cherenkov radiation plunging through dark space toward a blue planet, cinematic lighting, ultra-detailed, photorealistic, 8k, no text, no watermark",
+      "stock_query": "asteroid impact space",
+      "source_citation": "Special Relativity Kinetic Energy Equation",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At that velocity, the Lorentz factor spikes, packing the kinetic equivalent of a multi-megaton nuclear warhead into a one-gram object.",
+      "flow_prompt": "Close up of a molecular lattice of steel instantly disintegrating into pure plasma energy under extreme relativistic stress, highly detailed particle physics, no text, no watermark",
+      "stock_query": "nuclear explosion flash",
+      "source_citation": "Lorentz Factor Gamma Calculation",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "So it doesn't even punch a normal hole? It detonates instantly upon contact with the atmosphere?",
+      "flow_prompt": "A blinding flash of gamma radiation erupting in the upper stratosphere, illuminating the curvature of the Earth in a violent shockwave, cinematic lighting, no text, no watermark",
+      "stock_query": "atmosphere shockwave",
+      "source_citation": "Atmospheric Interaction Physics",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Exactly. Air molecules can't get out of the way fast enough, triggering a fusion cascade that vaporizes everything within hundreds of miles.",
+      "flow_prompt": "A massive hyper-sonic plasma fireball consuming a continent in milliseconds, glowing shockwave expanding rapidly across the globe, ultra-realistic, no text, no watermark",
+      "stock_query": "global catastrophe fire",
+      "source_citation": "Nuclear Fusion Ignition Thresholds",
+      "transition": "wipeup",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Einstein's physics proves that even a speck of dust can become a planet-killer if you push it fast enough.",
+      "flow_prompt": "Earth glowing with residual thermal scars from space, dark cosmic backdrop, cinematic rim lighting, hyper-realistic, no text, no watermark",
+      "stock_query": "planet earth from space",
+      "source_citation": "Mass-Energy Equivalence Principle",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "mixed_real_first"
+}

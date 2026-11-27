@@ -1,0 +1,9 @@
+{
+  "job_id": "batch_29_what_if_earth_had_rings_like",
+  "decision": "PASS",
+  "score": 100,
+  "reasons": [],
+  "script_hash": "9e6fc31be8720b38b6f556e486a960831d2d939d1347364b62af9debd0f07649",
+  "render_hash": "866a173639b746d1172f3d26c2705e236487ed004fb4161fc2528853fc67ec85",
+  "fallback_detected": false
+}

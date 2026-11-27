@@ -1,0 +1,9 @@
+{
+  "job_id": "batch_31_what_if_a_single_needle_hit_",
+  "decision": "PASS",
+  "score": 100,
+  "reasons": [],
+  "script_hash": "9b1f95313ffbdb8228a59ff410053ce778697138d475e75712d988858f44283f",
+  "render_hash": "6692d841664b84474baf859f39779fbf99d5eea681f6d4162ef93f0eb70ef517",
+  "fallback_detected": false
+}

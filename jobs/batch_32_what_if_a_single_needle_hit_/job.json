@@ -1,0 +1,85 @@
+{
+  "id": "batch_32_what_if_a_single_needle_hit_",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic dark sci-fi aesthetic, dramatic rim lighting, high-contrast neon accents, photorealistic textures, 8k resolution, no text, no watermark",
+  "title": "What If a Needle Hit Earth at Light Speed?",
+  "description": "What happens when a single steel needle impacts Earth at light speed? Drop your theory in the comments. #Shorts #Physics #Science",
+  "tags": [
+    "speed of light",
+    "physics",
+    "science experiment",
+    "earth destruction",
+    "relativistic kinetic energy",
+    "extreme science",
+    "what if",
+    "shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if a tiny steel sewing needle strikes the Earth at ninety-nine percent the speed of light?",
+      "flow_prompt": "A microscopic steel needle glowing with white-hot relativistic energy hurtling through the black vacuum of space toward a blue planet, extreme close-up, sharp focus, high-contrast rim lighting, no text, no watermark",
+      "stock_query": "asteroid impact space",
+      "source_citation": "Special Relativity Kinetic Energy Equation",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "Lorentz contraction kicks in, and its kinetic energy balloons to equal several megatons of TNT instantly.",
+      "flow_prompt": "Intense plasma shockwave blooming around a hyper-velocity projectile as it pierces the upper stratosphere, vibrant orange and blue energy trails, no text, no watermark",
+      "stock_query": "plasma explosion",
+      "source_citation": "Lorentz Factor Gamma Relativistic Mass",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "So it doesn't just punch a hole? The atmosphere itself turns into a weapon?",
+      "flow_prompt": "Atmospheric molecules instantly fusing and cascading into a brilliant column of incandescent plasma, violent shockwaves ripping through the clouds, no text, no watermark",
+      "stock_query": "atmospheric shockwave",
+      "source_citation": "Atmospheric Ram Pressure Dynamics",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Exactly. The air compression unleashes an extinction-level fireball before the needle even touches the dirt.",
+      "flow_prompt": "A colossal nuclear-grade firestorm mushrooming across a continents surface, blinding white light and shock rings expanding across the curvature of the Earth, no text, no watermark",
+      "stock_query": "nuclear blast earth",
+      "source_citation": "Tungsten-equivalent Kinetic Yield Formula",
+      "transition": "smoothleft",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "One speck of metal ends civilization. Tell us your survival strategy in the comments below.",
+      "flow_prompt": "The entire planet glowing red and fracturing under catastrophic thermal overload, cinematic orbital view, dark void background, no text, no watermark",
+      "stock_query": "planet destruction",
+      "source_citation": "Global Seismic and Thermal Dissipation Models",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "natural_studio"
+}

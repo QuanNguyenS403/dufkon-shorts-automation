@@ -1,0 +1,9 @@
+{
+  "job_id": "batch_33_what_if_a_needle_hit_earth_a",
+  "decision": "PASS",
+  "score": 100,
+  "reasons": [],
+  "script_hash": "66aafe7e8a49e2120f3fe4bb0ff5bcbcc4b78c997e45a64c69f9a8a0e2e63aba",
+  "render_hash": "a156ac62132d48d2f8cf04613e4ae69bfe2ba0622de53631724afac4fcb091d3",
+  "fallback_detected": false
+}

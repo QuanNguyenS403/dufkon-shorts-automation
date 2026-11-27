@@ -1,0 +1,85 @@
+{
+  "id": "batch_31_what_if_a_single_needle_hit_",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic sci-fi laboratory aesthetic, neon blue and deep obsidian color palette, dramatic rim lighting, hyper-detailed photorealism, extreme physical accuracy",
+  "title": "What If A Needle Hit Earth At Light Speed?",
+  "description": "Dropping a single needle at 99.99 percent the speed of light unleashes unimaginable kinetic energy. Would it wipe out humanity or obliterate the entire planet? Drop your theory in the comments. #Shorts #Science #Physics #ExtremeScience",
+  "tags": [
+    "speed of light",
+    "relativistic kinetic energy",
+    "physics experiments",
+    "extreme science",
+    "earth destruction",
+    "thought experiment",
+    "astrophysics",
+    "shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if a tiny sewing needle strikes Earth at ninety-nine point nine nine percent the speed of light?",
+      "flow_prompt": "A microscopic steel sewing needle gleaming in the vacuum of space, rushing forward with an intense blue Cherenkov radiation wake, hyper-detailed cinematic lighting, no text, no watermark",
+      "stock_query": "asteroid impact space",
+      "source_citation": "Special Relativity Kinetic Energy Formula",
+      "transition": "auto",
+      "show_presenter": false
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "Lorentz factor explodes. That tiny one-gram needle instantly carries the explosive yield of a forty-kiloton nuclear bomb.",
+      "flow_prompt": "Extreme macro view of atomic lattice compression under relativistic velocity, blinding gamma ray flashes and shockwaves erupting inside a metallic matrix, no text, no watermark",
+      "stock_query": "nuclear explosion flash",
+      "source_citation": "Lorentz Factor Gamma Calculation at 0.9999c",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Wait, just a single needle? Does it punch clean through the planet and exit the other side?",
+      "flow_prompt": "A glowing hypersonic projectile piercing the atmospheric layer of planet Earth, leaving behind an incandescent plasma tunnel, dramatic orbital view, no text, no watermark",
+      "stock_query": "meteor entering atmosphere",
+      "source_citation": "Atmospheric Entry Physics",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Not even close. The air molecules can't get out of the way fast enough, triggering a catastrophic thermonuclear plasma fireball on impact.",
+      "flow_prompt": "A colossal hemispheric plasma explosion erupting across the Earth's surface from a microscopic pinprick point, blinding white light and shock rings, no text, no watermark",
+      "stock_query": "massive explosion shockwave",
+      "source_citation": "Atmospheric Ram Pressure and Nuclear Yield Equivalence",
+      "transition": "wipeup",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "Entire continents vanish in seconds. Tell us in the comments: could humanity survive this cosmic sniper shot?",
+      "flow_prompt": "The entire planet Earth glowing with catastrophic impact scars and swirling superheated debris clouds from space, cinematic scale, no text, no watermark",
+      "stock_query": "earth destruction space view",
+      "source_citation": "Global Cataclysm Energy Thresholds",
+      "transition": "circleopen",
+      "show_presenter": false
+    }
+  ],
+  "resolved_presenter_layout": "fullscreen",
+  "presenter_pair": "mixed_real_first"
+}

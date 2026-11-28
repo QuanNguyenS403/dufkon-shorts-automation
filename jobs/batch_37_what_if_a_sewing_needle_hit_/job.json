@@ -1,0 +1,84 @@
+{
+  "id": "batch_37_what_if_a_sewing_needle_hit_",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic dark sci-fi aesthetic, deep space blue and intense plasma orange color palette, dramatic rim lighting, hyper-realistic 8k resolution, Unreal Engine 5 render style, physics simulation accurate.",
+  "title": "What If A Needle Hit Earth At Light Speed?",
+  "description": "Drop a relativistic needle on Earth and watch the entire planet vaporize in a fraction of a millisecond. Would humanity even feel the impact before total annihilation? Drop your theories in the comments and subscribe for more extreme physics! #Shorts #Science #Physics #Space",
+  "tags": [
+    "speed of light",
+    "earth destruction",
+    "relativistic kinetic energy",
+    "extreme science",
+    "physics simulation",
+    "cosmic impact",
+    "science shorts"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if an ordinary sewing needle strikes Earth moving at the speed of light?",
+      "flow_prompt": "Cinematic macro shot of a sleek steel sewing needle glowing with intense white-hot Cherenkov radiation hurtling through the dark vacuum of space toward a glowing blue Earth, sharp focus, high-contrast rim lighting, no text, no watermark",
+      "stock_query": "asteroid impact space",
+      "source_citation": "Special Relativity Mass-Energy Equivalence",
+      "transition": "auto",
+      "show_presenter": true
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At ninety-nine point nine percent light speed, that tiny needle gains infinite relativistic mass.",
+      "flow_prompt": "Extreme close-up of a steel needle fracturing space-time with violent distortion waves and purple plasma arcs, highly detailed metallic texture, no text, no watermark",
+      "stock_query": "light speed particle physics",
+      "source_citation": "Lorentz Factor Relativistic Momentum",
+      "transition": "dissolve",
+      "show_presenter": true
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "It carries the kinetic energy of a multi-megaton thermonuclear weapon compressed into a single point.",
+      "flow_prompt": "A blazing hyper-velocity needle piercing the upper atmosphere, leaving a glowing white-hot plasma column and atmospheric shockwave, dramatic space view, no text, no watermark",
+      "stock_query": "nuclear explosion flash",
+      "source_citation": "Kinetic Energy Formula E equals gamma mc squared",
+      "transition": "zoomin",
+      "show_presenter": true
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Upon contact, atmospheric fusion instantly vaporizes the crust, digging a crater hundreds of miles wide.",
+      "flow_prompt": "Catastrophic global shockwave enveloping the planet Earth in a blinding flash of orange and white plasma fire, hyper-realistic continents shattering, no text, no watermark",
+      "stock_query": "earth explosion destruction",
+      "source_citation": "Hypervelocity Impact Mechanics",
+      "transition": "smoothleft",
+      "show_presenter": true
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "You would be dead before your brain even registers the impact flash. Tell us which object we should accelerate next!",
+      "flow_prompt": "Planet Earth completely disintegrating into glowing magma debris and dust clouds drifting in the void of deep space, cinematic destruction, no text, no watermark",
+      "stock_query": "planet destruction space",
+      "source_citation": "Global Planetary Annihilation Threshold",
+      "transition": "circleopen",
+      "show_presenter": true
+    }
+  ],
+  "resolved_presenter_layout": "split",
+  "presenter_pair": "mixed_real_first"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "batch_37_what_if_a_needle_hit_earth_a",
+  "niche": "extreme_science",
+  "language": "en",
+  "category_id": "28",
+  "contains_synthetic_media": true,
+  "voice": "en-US-AndrewMultilingualNeural",
+  "voices": {
+    "host": "en-US-AndrewMultilingualNeural",
+    "guest": "en-US-AvaMultilingualNeural"
+  },
+  "voice_rate": "+6%",
+  "character_setting_bible": "Cinematic 8K documentary style, vibrant neon contrast, sharp rim lighting, hyper-realistic physics simulations, dark cosmic space background with deep purples and electric blues",
+  "title": "What If a Light-Speed Needle Hit Earth?",
+  "description": "If a microscopic needle struck Earth at the speed of light, the kinetic energy unleashed would vaporize continents instantly. Drop your thoughts in the comments on what other cosmic objects we should test next! #Shorts #ExtremeScience #Physics #Space",
+  "tags": [
+    "speed of light",
+    "physics",
+    "earth destruction",
+    "hypothetical science",
+    "kinetic energy",
+    "extreme science",
+    "shorts",
+    "science experiments"
+  ],
+  "scenes": [
+    {
+      "index": 1,
+      "speaker": "host",
+      "clip_file": "clips/scene_01.mp4",
+      "narration": "What happens if a simple sewing needle hits Earth moving at ninety-nine point nine percent the speed of light?",
+      "flow_prompt": "A microscopic steel sewing needle hurtling through the deep vacuum of space trailing a blinding blue Cherenkov radiation wake, hyper-realistic, 8k resolution, no text, no watermark",
+      "stock_query": "meteor space vacuum",
+      "source_citation": "Special Relativity and Kinetic Energy Formula E=(gamma-1)mc^2",
+      "transition": "auto",
+      "show_presenter": true
+    },
+    {
+      "index": 2,
+      "speaker": "guest",
+      "clip_file": "clips/scene_02.mp4",
+      "narration": "At that relativistic velocity, even an object weighing one gram carries the explosive yield of multiple megatons of TNT.",
+      "flow_prompt": "A thin metallic needle piercing Earth's upper atmosphere at extreme hypersonic speed, glowing white-hot with intense friction plasma, no text, no watermark",
+      "stock_query": "atmosphere re-entry plasma",
+      "source_citation": "Relativistic kinetic energy calculations for macroscopic projectiles",
+      "transition": "zoomin",
+      "show_presenter": false
+    },
+    {
+      "index": 3,
+      "speaker": "host",
+      "clip_file": "clips/scene_03.mp4",
+      "narration": "Does it even slow down when it punches through the crust and mantle?",
+      "flow_prompt": "Cross-section of Earth showing a blinding beam of pure energy tearing through the crust and mantle into the molten core, dramatic lighting, no text, no watermark",
+      "stock_query": "earth core cross section",
+      "source_citation": "Particle penetration mechanics in dense planetary matter",
+      "transition": "dissolve",
+      "show_presenter": false
+    },
+    {
+      "index": 4,
+      "speaker": "guest",
+      "clip_file": "clips/scene_04.mp4",
+      "narration": "Not really. The surrounding air and rock instantly undergo nuclear fusion, generating a towering plasma fireball that engulfs the continent.",
+      "flow_prompt": "Colossal continent-scale nuclear explosion erupting on Earth's surface with massive shockwaves rippling across the oceans, cinematic photography, no text, no watermark",
+      "stock_query": "nuclear blast shockwave",
+      "source_citation": "Plasma physics and nuclear fusion threshold upon impact",
+      "transition": "wipeup",
+      "show_presenter": false
+    },
+    {
+      "index": 5,
+      "speaker": "host",
+      "clip_file": "clips/scene_05.mp4",
+      "narration": "The needle vanishes, but the entire planet shakes to its core. Would humanity survive? Let us know below.",
+      "flow_prompt": "Planet Earth glowing with residual heat fractures and massive shockwaves wrapping around the globe from a single impact point, space view, no text, no watermark",
+      "stock_query": "earth from space glowing",
+      "source_citation": "Planetary defense and relativistic impact modeling",
+      "transition": "circleopen",
+      "show_presenter": true
+    }
+  ],
+  "resolved_presenter_layout": "hybrid",
+  "presenter_pair": "natural_studio"
+}

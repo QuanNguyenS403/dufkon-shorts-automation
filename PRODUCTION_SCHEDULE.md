@@ -1,6 +1,6 @@
 # BẢNG ĐỐI CHIẾU SẢN XUẤT & LỊCH ĐĂNG YOUTUBE SHORTS (Dufkon)
 
-- **Cập nhật lần cuối:** `2026-11-28T13:26:08.346871+07:00`
+- **Cập nhật lần cuối:** `2026-11-28T13:27:37.034356+07:00`
 - **Kênh YouTube:** `Dufkon` (`UCVEH1Fr34ceSw4FY27i656A`)
 - **Khung giờ đăng cố định:** `02:00, 19:00` hàng ngày (`2 video/ngày`, Múi giờ `+07:00`)
 - **Tổng số Job đã tạo:** `38` | **Đã Render MP4:** `38` | **Đã Upload & Lên lịch:** `38`
